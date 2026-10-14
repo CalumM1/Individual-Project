@@ -1,8 +1,9 @@
 from pathlib import Path
-import pyterrier as pt 
+import pyterrier as pt
+import sys
 
 
-def build_index(index_path: str, dataset: str):
+def build_index(dataset, index_path):
     dataset = pt.get_dataset(dataset)
 
     path = Path(__file__).resolve().parent / "indexes" / index_path
@@ -23,17 +24,20 @@ def dedup_iter(corpus_iter):
         if doc["docno"] in seen:
             continue
         seen.add(doc["docno"])
-        if not doc.get("text", "").strip():
+
+        if "text" not in doc:
+            parts = [doc.get(f, "") for f in ("title", "abstract", "body")]
+            doc = {**doc, "text": " ".join(p for p in parts if p).strip()}
+
+        if not doc["text"].strip():
             continue
         yield doc
 
 
 def main():
-    build_index("antique_train.terrier", "irds:antique/train")
-    build_index("antique_test.terrier", "irds:antique/test")
-    build_index("trec_fair2021_eval.terrier", "irds:trec-fair/2021/eval")
-    build_index("trec_fair2021_train.terrier", "irds:trec-fair/2021/train")
-    build_index("trec_fair2022_train.terrier", "irds:trec-fair/2022/train")
+    if len(sys.argv) != 3:
+        print("build_index.py expects the dataset and the name of the index directory")
+    build_index(sys.argv[1], sys.argv[2])
 
 
 if __name__ == "__main__":
