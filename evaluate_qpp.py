@@ -1,10 +1,10 @@
 import pandas as pd
 from scipy.stats import pearsonr, kendalltau, spearmanr
 
-from first_pass_retrieval import DATASETS, RUNS_DIR
+from first_pass_retrieval import DATASETS, RUNS_DIR, ROOT
 from predictors.length_based_predictor import query_length_predictor
 
-
+QPP_RESULTS_DIR = ROOT / "qpp_results"
 
 
 def evaluate_qpp(preds, perq, system, metric):
@@ -43,6 +43,6 @@ if __name__ == "__main__":
                 rows.append({"dataset": dataset, "system": system, "metric": metric, **res})
 
     results = pd.DataFrame(rows)
-    results.to_csv(RUNS_DIR / "qpp_query_length_results.csv", index=False)
+    results.to_csv(QPP_RESULTS_DIR / "qpp_query_length_results.csv", index=False)
     pd.set_option("display.width", 200)
     print(results.round(3).to_string(index=False))
