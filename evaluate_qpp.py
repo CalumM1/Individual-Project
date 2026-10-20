@@ -2,7 +2,7 @@ import pandas as pd
 from scipy.stats import pearsonr, kendalltau, spearmanr
 
 from first_pass_retrieval import DATASETS, RUNS_DIR, ROOT
-from predictors.length_based_predictor import query_length_predictor
+from predictors.word_count_predictor import word_count_predictor
 
 QPP_RESULTS_DIR = ROOT / "qpp_results"
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
         topics = pd.read_parquet(run_dir / "topics.parquet")
         perq = pd.read_parquet(run_dir / "perquery_metrics.parquet")
-        preds = query_length_predictor(topics)
+        preds = word_count_predictor(topics)
 
         metrics = [c for c in perq.columns if c not in ("name", "qid")]
         for system in perq["name"].unique():
