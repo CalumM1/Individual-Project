@@ -7,6 +7,16 @@ WMODELS = {"bm25": "BM25", "dirichlet": "DirichletLM", "tfidf": "TF_IDF"}
  
 
 DATASETS = {
+    "trec_fair2021_train": {
+        "index": "trec-fair-2021.terrier",
+        "dataset": "irds:trec-fair/2021/train",
+        "variant": "text",
+    },
+    "trec_fair2022_train": {
+        "index": "trec-fair-2022.terrier",
+        "dataset": "irds:trec-fair/2022/train",
+        "variant": "text",
+    },
     "antique_test": {
         "index": "antique_train.terrier",
         "dataset": "irds:antique/test",
@@ -28,16 +38,6 @@ DATASETS = {
     "msmarco_doc_dl2020": {
         "index": "msmarco-document_trec-dl-2020_judged.terrier",
         "dataset": "irds:msmarco-document/trec-dl-2020/judged",
-    },
-    "trec_fair2021_train": {
-        "index": "trec_fair2021_train.terrier",
-        "dataset": "irds:trec-fair/2021/train",
-        "variant": "text",
-    },
-    "trec_fair2022_train": {
-        "index": "trec_fair2022_train.terrier",
-        "dataset": "irds:trec-fair/2022/train",
-        "variant": "text",
     },
 }
  
