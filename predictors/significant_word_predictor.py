@@ -1,4 +1,8 @@
 import pandas as pd
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+import evaluate_qpp
 
 
 def significant_word_predictor(topics) -> pd.DataFrame:
@@ -44,3 +48,7 @@ def significant_word_predictor(topics) -> pd.DataFrame:
         "qid": topics["qid"],
         "prediction": topics["query"].apply(score),
     })
+
+
+if __name__ == "__main__":
+    evaluate_qpp.main(significant_word_predictor, "qpp_significant_words_results")

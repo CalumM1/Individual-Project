@@ -2,7 +2,6 @@ import pandas as pd
 from scipy.stats import pearsonr, kendalltau, spearmanr
 
 from first_pass_retrieval import DATASETS, RUNS_DIR, ROOT
-from predictors.word_count_predictor import word_count_predictor
 
 QPP_RESULTS_DIR = ROOT / "qpp_results"
 
@@ -24,7 +23,7 @@ def evaluate_qpp(preds, perq, system, metric):
     }
 
 
-if __name__ == "__main__":
+def main(predictor, results_file):
     rows = []
     for dataset in DATASETS:
         run_dir = RUNS_DIR / dataset
@@ -34,7 +33,7 @@ if __name__ == "__main__":
 
         topics = pd.read_parquet(run_dir / "topics.parquet")
         perq = pd.read_parquet(run_dir / "perquery_metrics.parquet")
-        preds = word_count_predictor(topics)
+        preds = predictor(topics)
 
         metrics = [c for c in perq.columns if c not in ("name", "qid")]
         for system in perq["name"].unique():
@@ -43,6 +42,10 @@ if __name__ == "__main__":
                 rows.append({"dataset": dataset, "system": system, "metric": metric, **res})
 
     results = pd.DataFrame(rows)
-    results.to_csv(QPP_RESULTS_DIR / "qpp_query_length_results.csv", index=False)
+    results.to_csv(QPP_RESULTS_DIR / f"{results_file}.csv", index=False)
     pd.set_option("display.width", 200)
     print(results.round(3).to_string(index=False))
+
+
+if __name__ == "__main__":
+    main()
