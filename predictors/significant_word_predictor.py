@@ -9,7 +9,7 @@ def significant_word_predictor(topics) -> pd.DataFrame:
     """
     Hypothesis: queries with a greater ratio of 'significant' to 'insignificant' words are more performant 
     """
-    insignificant_words = [
+    stop_words = [
     "a", "an", "the", "and", "or", "but", "if", "then", "else",
     "of", "to", "in", "on", "at", "by", "for", "from", "with",
     "about", "as", "into", "over", "under", "between", "through",
@@ -36,13 +36,13 @@ def significant_word_predictor(topics) -> pd.DataFrame:
         significant = 0
         insignificant = 0
         for word in query.split():
-            if word.lower() in insignificant_words:
+            if word.lower() in stop_words:
                 insignificant += 1
             else:
                 significant += 1
         if insignificant == 0:
             return significant
-        return significant / (insignificant + 1)  # + 1 prevents ties when there is only one insig word
+        return significant / (insignificant + 1)  # + 1 prevents ties when there is only one stop word
 
     return pd.DataFrame({
         "qid": topics["qid"],
