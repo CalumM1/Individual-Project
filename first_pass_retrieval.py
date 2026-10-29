@@ -12,13 +12,13 @@ WMODELS = {"bm25": "BM25", "dirichlet": "DirichletLM", "tfidf": "TF_IDF"}
 
 
 DATASETS = {
-    "trec_fair2021_train": {
-        "index": "trec-fair-2021.terrier",
+    "trec_fair_train_2021": {
+        "index": "trec_fair_2021.terrier",
         "dataset": "irds:trec-fair/2021/train",
         "variant": "text",
     },
-    "trec_fair2022_train": {
-        "index": "trec-fair-2022.terrier",
+    "trec_fair_train2022": {
+        "index": "trec_fair_2022.terrier",
         "dataset": "irds:trec-fair/2022/train",
         "variant": "text",
     },
