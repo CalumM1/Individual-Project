@@ -25,12 +25,10 @@ def dedup_iter(corpus_iter):
             continue
         seen.add(doc["docno"])
 
-        if "text" not in doc:
-            parts = [doc.get(f, "") for f in ("title", "abstract", "body")]
+        if not (doc.get("text") or "").strip():
+            parts = [doc.get(f) or "" for f in ("title", "abstract", "body")]
             doc = {**doc, "text": " ".join(p for p in parts if p).strip()}
 
-        if not doc["text"].strip():
-            continue
         yield doc
 
 
