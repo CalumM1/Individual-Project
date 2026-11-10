@@ -3,7 +3,7 @@ from scipy.stats import pearsonr, kendalltau, spearmanr
 
 from first_pass_retrieval import DATASETS, RUNS_DIR, ROOT
 
-QPP_RESULTS_DIR = ROOT / "qpp_results"
+QPP_RESULTS_DIR = ROOT / "results" / "qpp"
 
 
 def evaluate_qpp(preds, perq, system, metric):
