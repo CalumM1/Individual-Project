@@ -8,17 +8,17 @@ QPP_RESULTS_DIR = ROOT / "qpp_results"
 
 def evaluate_qpp(preds, perq, system, metric):
     
-    gt = perq.loc[perq["name"] == system, ["qid", metric]]
-    df = gt.merge(preds, on="qid", how="inner")
+    actual_values = perq.loc[perq["name"] == system, ["qid", metric]]
+    df = actual_values.merge(preds, on="qid", how="inner")
 
-    if len(df) < len(gt):
-        print(f"warning: {len(gt) - len(df)} queries have no prediction")
+    if len(df) < len(actual_values):
+        print(f"warning: {len(actual_values) - len(df)} queries have no prediction")
 
-    y, p = df[metric], df["prediction"]
+    real, predicted = df[metric], df["prediction"]
     return {
-        "pearson": pearsonr(y, p)[0],
-        "kendall": kendalltau(y, p)[0],
-        "spearman": spearmanr(y, p)[0],
+        "pearson": pearsonr(real, predicted)[0],
+        "kendall": kendalltau(real, predicted)[0],
+        "spearman": spearmanr(real, predicted)[0],
         "n": len(df),
     }
 
@@ -45,7 +45,3 @@ def main(predictor, results_file):
     results.to_csv(QPP_RESULTS_DIR / f"{results_file}.csv", index=False)
     pd.set_option("display.width", 200)
     print(results.round(3).to_string(index=False))
-
-
-if __name__ == "__main__":
-    main()
