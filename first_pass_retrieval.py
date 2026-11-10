@@ -15,13 +15,13 @@ WMODELS = {"bm25": "BM25", "dirichlet": "DirichletLM", "tfidf": "TF_IDF"}
 GEP_K = 100
 
 DATASETS = {
-    "trec_fair_train_2021": {
+    "trec_fair_2021_train": {
         "index": "trec_fair_2021.terrier",
         "dataset": "irds:trec-fair/2021/train",
         "variant": "text",
         "categories": {"geo_location": "geographic_locations"},
     },
-    "trec_fair_train2022": {
+    "trec_fair_2022_train": {
         "index": "trec_fair_2022.terrier",
         "dataset": "irds:trec-fair/2022/train",
         "variant": "text",
@@ -171,6 +171,11 @@ def run(name, index, dataset, categories, rel=1, variant=None, depth=1000):
     else:
         print(f"[{name}] reading group labels from the corpus")
         groups = save_groups(groups_path, dataset, categories)
+
+    if groups["docno"].duplicated().any():
+        print(f"[{name}] dropping {groups['docno'].duplicated().sum()} duplicate docnos from groups")
+        groups = groups.drop_duplicates("docno")
+        groups.to_parquet(groups_path)
 
     topics["gep_terms"] = query_terms(topics)
     stats_path = out / "term_stats.parquet"
