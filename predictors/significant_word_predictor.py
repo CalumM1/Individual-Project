@@ -34,15 +34,15 @@ def significant_word_predictor(topics) -> pd.DataFrame:
     
     def score(query):
         significant = 0
-        insignificant = 0
+        stop_words = 0
         for word in query.split():
             if word.lower() in stop_words:
-                insignificant += 1
+                stop_words += 1
             else:
                 significant += 1
-        if insignificant == 0:
+        if stop_words == 0:
             return significant
-        return significant / (insignificant + 1)  # + 1 prevents ties when there is only one stop word
+        return significant / (stop_words + 1)  # + 1 prevents ties when there is only one stop word
 
     return pd.DataFrame({
         "qid": topics["qid"],
