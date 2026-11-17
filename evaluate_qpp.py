@@ -12,8 +12,7 @@ QPP_RESULTS_DIR = ROOT / "results" / "qpp"
 
 # trec fair counts every article in a wikiproject as relevant, so every query has thousands of
 # relevant documents, far more than the 1000 retrieved. recall based metrics (AP, AP@100, R@1000)
-# then mostly reflect how many relevant documents a query has rather than how well it was ranked,
-# so only precision oriented metrics are used. datasets not listed here use every metric
+# then mostly reflect how many relevant documents a query has rather than how well it was ranked
 PRECISION_METRICS = ["nDCG@10", "nDCG@100", "P@10", "RR"]
 QPP_METRICS = {
     "trec_fair_2021_train": PRECISION_METRICS,
