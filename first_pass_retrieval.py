@@ -104,6 +104,32 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
     stats.to_parquet(path)
 
 
+def save_query_stats(path, idx, topics):
+    # n_matched: number of documents containing at least one query term, i.e. the size of the
+    # union of the query terms' posting lists (needed for query scope)
+    lex = idx.getLexicon()
+    inv = idx.getInvertedIndex()
+    n = idx.getCollectionStatistics().getNumberOfDocuments()
+
+    postings = {}
+    for term in sorted({t for ts in topics["gep_terms"] for t in ts}):
+        le = lex.getLexiconEntry(term)
+        if le is None:
+            continue
+        postings[term] = np.fromiter((p.getId() for p in inv.getPostings(le)), dtype=np.int32)
+
+    def n_matched(terms):
+        ids = [postings[t] for t in set(terms) if t in postings]
+        return int(np.unique(np.concatenate(ids)).size) if ids else 0
+
+    stats = pd.DataFrame({
+        "qid": topics["qid"],
+        "n_matched": topics["gep_terms"].map(n_matched),
+        "n_docs": n,
+    })
+    stats.to_parquet(path)
+
+
 def run(name, index, dataset, categories, rel=1, variant=None, depth=1000):
     out = RUNS_DIR / name
     out.mkdir(parents=True, exist_ok=True)
@@ -189,6 +215,11 @@ def run(name, index, dataset, categories, rel=1, variant=None, depth=1000):
     if not stats_path.exists():
         print(f"[{name}] collecting term statistics for gep")
         save_term_stats(stats_path, idx, topics["gep_terms"], groups, categories)
+
+    query_stats_path = out / "query_stats.parquet"
+    if not query_stats_path.exists():
+        print(f"[{name}] counting documents that match each query")
+        save_query_stats(query_stats_path, idx, topics)
 
     topics.to_parquet(out / "topics.parquet")
     qrels.to_parquet(out / "qrels.parquet")
