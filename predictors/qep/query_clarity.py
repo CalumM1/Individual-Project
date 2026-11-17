@@ -54,17 +54,7 @@ def query_clarity(run_dir, category) -> pd.DataFrame:
 def query_clarity_inverse(run_dir, category, lam=0.9) -> pd.DataFrame:
     """
     Hypothesis: a group receives more exposure when the query's language is closer to that
-    group's language, measured per group as 2^(-SCS_g), where SCS_g is the simplified
-    clarity score of the query against the group's language model,
- 
-        SCS_g = sum_{w in Q} P_ml(w|Q) * log2(P_ml(w|Q) / P_g(w))
- 
-    P_g(w) is smoothed with the collection model so that every group has a finite score,
- 
-        P_g(w) = lam * tf_g / token_g + (1 - lam) * tf_coll / token_coll
- 
-    Normalising 2^(-SCS_g) across groups makes each share proportional to the geometric mean
-    of the query term probabilities under the group's language model
+    group's language
     """
     topics = pd.read_parquet(run_dir / "topics.parquet", columns=["qid", "gep_terms"])
  
