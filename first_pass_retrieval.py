@@ -61,20 +61,14 @@ def query_terms(topics):
     )
 
 
-def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
-    lex = idx.getLexicon()
-    inv = idx.getInvertedIndex()
+def group_masks(idx, groups, categories):
+    # for each category, the sorted group names and a bitmask per document (indexed by terrier
+    # docid) with bit i set when the document belongs to group i; documents missing from
+    # groups count as "Unknown"
     meta = idx.getMetaIndex()
-    coll = idx.getCollectionStatistics()
-    n = coll.getNumberOfDocuments()
-    # total tokens in the index (after stopword removal and stemming), for collection language models
-    n_tokens = coll.getNumberOfTokens()
-
+    n = idx.getCollectionStatistics().getNumberOfDocuments()
     docnos = [meta.getItem("docno", i) for i in range(n)]
     by_docid = groups.set_index("docno").reindex(docnos)
-    # document lengths in tokens, to size each group's language model
-    doi = idx.getDocumentIndex()
-    doc_lens = np.fromiter((doi.getDocumentLength(i) for i in range(n)), dtype=np.int64, count=n)
 
     masks = {}
     for cat in categories:
@@ -83,6 +77,43 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
         bits = np.zeros(n, dtype=np.uint32)
         for i, name in enumerate(names):
             bits |= labels.map(lambda gs: name in gs).to_numpy(np.uint32) << i
+        masks[cat] = (names, bits)
+    return masks
+
+
+def posting_ids(idx, terms):
+    # terrier docids of the documents containing each query term
+    lex = idx.getLexicon()
+    inv = idx.getInvertedIndex()
+    postings = {}
+    for term in sorted({t for ts in terms for t in ts}):
+        le = lex.getLexiconEntry(term)
+        if le is None:
+            continue
+        postings[term] = np.fromiter((p.getId() for p in inv.getPostings(le)), dtype=np.int32)
+    return postings
+
+
+def matched_ids(postings, terms):
+    # docids of the documents containing at least one of the terms
+    ids = [postings[t] for t in set(terms) if t in postings]
+    return np.unique(np.concatenate(ids)) if ids else np.array([], dtype=np.int32)
+
+
+def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
+    lex = idx.getLexicon()
+    inv = idx.getInvertedIndex()
+    coll = idx.getCollectionStatistics()
+    n = coll.getNumberOfDocuments()
+    # total tokens in the index (after stopword removal and stemming), for collection language models
+    n_tokens = coll.getNumberOfTokens()
+
+    # document lengths in tokens, to size each group's language model
+    doi = idx.getDocumentIndex()
+    doc_lens = np.fromiter((doi.getDocumentLength(i) for i in range(n)), dtype=np.int64, count=n)
+
+    masks = {}
+    for cat, (names, bits) in group_masks(idx, groups, categories).items():
         # documents and tokens in each group (a document can belong to several groups)
         sizes = [(int(m.sum()), int(doc_lens[m].sum()))
                  for m in (((bits >> i) & 1).astype(bool) for i in range(len(names)))]
@@ -116,26 +147,35 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
 def save_query_stats(path, idx, topics):
     # n_matched: number of documents containing at least one query term, i.e. the size of the
     # union of the query terms' posting lists (needed for query scope)
-    lex = idx.getLexicon()
-    inv = idx.getInvertedIndex()
     n = idx.getCollectionStatistics().getNumberOfDocuments()
-
-    postings = {}
-    for term in sorted({t for ts in topics["gep_terms"] for t in ts}):
-        le = lex.getLexiconEntry(term)
-        if le is None:
-            continue
-        postings[term] = np.fromiter((p.getId() for p in inv.getPostings(le)), dtype=np.int32)
-
-    def n_matched(terms):
-        ids = [postings[t] for t in set(terms) if t in postings]
-        return int(np.unique(np.concatenate(ids)).size) if ids else 0
+    postings = posting_ids(idx, topics["gep_terms"])
 
     stats = pd.DataFrame({
         "qid": topics["qid"],
-        "n_matched": topics["gep_terms"].map(n_matched),
+        "n_matched": topics["gep_terms"].map(lambda terms: matched_ids(postings, terms).size),
         "n_docs": n,
     })
+    stats.to_parquet(path)
+
+
+def save_query_group_stats(path, idx, topics, groups, categories):
+    # n_matched per (query, category, group): number of the group's documents containing at
+    # least one query term, alongside the group's size (needed for per-group query scope)
+    postings = posting_ids(idx, topics["gep_terms"])
+    masks = group_masks(idx, groups, categories)
+
+    sizes = {cat: [int(((bits >> i) & 1).sum()) for i in range(len(names))]
+             for cat, (names, bits) in masks.items()}
+
+    rows = []
+    for qid, terms in zip(topics["qid"], topics["gep_terms"]):
+        ids = matched_ids(postings, terms)
+        for cat, (names, bits) in masks.items():
+            for i, name in enumerate(names):
+                n_matched = int(((bits[ids] >> i) & 1).sum())
+                rows.append((qid, cat, name, n_matched, sizes[cat][i]))
+
+    stats = pd.DataFrame(rows, columns=["qid", "category", "group", "n_matched", "group_n_docs"])
     stats.to_parquet(path)
 
 
@@ -229,6 +269,11 @@ def run(name, index, dataset, categories, rel=1, variant=None, depth=1000):
     if not query_stats_path.exists():
         print(f"[{name}] counting documents that match each query")
         save_query_stats(query_stats_path, idx, topics)
+
+    query_group_stats_path = out / "query_group_stats.parquet"
+    if not query_group_stats_path.exists():
+        print(f"[{name}] counting documents in each group that match each query")
+        save_query_group_stats(query_group_stats_path, idx, topics, groups, categories)
 
     topics.to_parquet(out / "topics.parquet")
     qrels.to_parquet(out / "qrels.parquet")
