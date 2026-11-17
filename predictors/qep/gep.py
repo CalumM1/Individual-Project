@@ -1,15 +1,11 @@
 import math
-import sys
 from collections import Counter
-from pathlib import Path
+
 import numpy as np
 import pandas as pd
 
-sys.path.append(str(Path(__file__).resolve().parents[2]))
-import evaluate_qep
 
-
-def idf(n, df):
+def gep_idf(n, df):
     return math.log((n - df + 0.5) / (df + 0.5))
 
 
@@ -30,7 +26,7 @@ def gep_predictor(run_dir, category, k=100) -> pd.DataFrame:
         terms = list(q_tf)
 
         # weight query terms with tf idf over the whole collection
-        Q = np.array([q_tf[t] * idf(n, df.get(t, 0)) for t in terms])
+        Q = np.array([q_tf[t] * gep_idf(n, df.get(t, 0)) for t in terms])
 
         e = []
         for g in groups:
@@ -41,7 +37,7 @@ def gep_predictor(run_dir, category, k=100) -> pd.DataFrame:
                 if r is None or r.group_df == 0:
                     S.append(0.0)
                     continue
-                w = idf(sizes[g], r.group_df)
+                w = gep_idf(sizes[g], r.group_df)
                 scores = [tf * w for tf in r.top_tfs] + [0] * min(k, sizes[g] - r.group_df)
                 S.append(np.mean(sorted(scores, reverse=True)[:k]))
 
@@ -54,7 +50,3 @@ def gep_predictor(run_dir, category, k=100) -> pd.DataFrame:
         rows += [(qid, g, p) for g, p in zip(groups, e)]
 
     return pd.DataFrame(rows, columns=["qid", "group", "prediction"])
-
-
-if __name__ == "__main__":
-    evaluate_qep.main(gep_predictor, "gep_results")

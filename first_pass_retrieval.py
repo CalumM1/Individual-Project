@@ -53,8 +53,12 @@ def save_groups(path, dataset, categories):
 
 
 def query_terms(topics):
+    # match terrier's query pipeline: drop stopwords, then stem
+    stopwords = pt.java.autoclass("org.terrier.terms.Stopwords")(None)
     stemmer = pt.java.autoclass("org.terrier.terms.PorterStemmer")()
-    return topics["query"].map(lambda q: [stemmer.stem(w) for w in q.lower().split()])
+    return topics["query"].map(
+        lambda q: [stemmer.stem(w) for w in q.lower().split() if not stopwords.isStopword(w)]
+    )
 
 
 def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):

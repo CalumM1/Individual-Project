@@ -1,5 +1,7 @@
+import argparse
 import math
 from collections import Counter
+from importlib import import_module
 
 import pandas as pd
 from scipy.spatial.distance import jensenshannon
@@ -37,7 +39,25 @@ def evaluate_qep(preds, actual):
     return {"jsd": jsd.mean(), "jsd_std": jsd.std(), "n": len(jsd)}
 
 
-def main(predictor, results_file):
+def load_predictor(model):
+    try:
+        module_name, function_name = model.rsplit(":", 1)
+    except ValueError as exc:
+        raise ValueError("Model must be specified as module:function") from exc
+
+    predictor = getattr(import_module(module_name), function_name)
+    if not callable(predictor):
+        raise TypeError(f"Selected model is not callable: {model}")
+    return predictor
+
+
+def main(model, results_file=None):
+    predictor = load_predictor(model)
+    if results_file is None:
+        results_file = {
+            "gep_predictor": "gep_results",
+        }.get(model.rsplit(":", 1)[-1], model.rsplit(":", 1)[-1])
+
     QEP_RESULTS_DIR.mkdir(exist_ok=True)
     rows = []
     for dataset, cfg in DATASETS.items():
@@ -61,3 +81,23 @@ def main(predictor, results_file):
     results.to_csv(QEP_RESULTS_DIR / f"{results_file}.csv", index=False)
     pd.set_option("display.width", 200)
     print(results.round(4).to_string(index=False))
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Evaluate a query exposure prediction model.",
+        epilog=(
+            "Example: python evaluate_qep.py predictors.qep.gep:gep_predictor. "
+            "Select a different function to run another model from the same module."
+        ),
+    )
+    parser.add_argument(
+        "model",
+        help="Prediction model in module:function format",
+    )
+    parser.add_argument(
+        "--results-file",
+        help="Output CSV name (without .csv); defaults to the model name",
+    )
+    args = parser.parse_args()
+    main(args.model, args.results_file)
