@@ -36,3 +36,14 @@ def query_scope(run_dir, category) -> pd.DataFrame:
         return -math.log(n_matched / group_n_docs)
  
     return shares(load(run_dir, category), score)
+
+
+def query_scope_inverse(run_dir, category) -> pd.DataFrame:
+    """
+    Hypothesis: a group receives more exposure when the query's terms match a larger part of
+    that group's documents
+    """
+    def score(n_matched, group_n_docs):
+        return n_matched / group_n_docs if group_n_docs > 0 else 0.0
+ 
+    return shares(load(run_dir, category), score)
