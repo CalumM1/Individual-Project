@@ -65,7 +65,10 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
     lex = idx.getLexicon()
     inv = idx.getInvertedIndex()
     meta = idx.getMetaIndex()
-    n = idx.getCollectionStatistics().getNumberOfDocuments()
+    coll = idx.getCollectionStatistics()
+    n = coll.getNumberOfDocuments()
+    # total tokens in the index (after stopword removal and stemming), for collection language models
+    n_tokens = coll.getNumberOfTokens()
 
     docnos = [meta.getItem("docno", i) for i in range(n)]
     by_docid = groups.set_index("docno").reindex(docnos)
@@ -93,11 +96,11 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
             for i, name in enumerate(names):
                 in_group = ((bits[ids] >> i) & 1).astype(bool)
                 top = np.sort(tfs[in_group])[::-1][:k]
-                rows.append((term, le.getDocumentFrequency(), n, cat, name,
-                             int(in_group.sum()), top.tolist()))
+                rows.append((term, le.getDocumentFrequency(), le.getFrequency(), n, n_tokens,
+                             cat, name, int(in_group.sum()), top.tolist()))
 
-    stats = pd.DataFrame(rows, columns=["term", "df", "n_docs", "category", "group",
-                                        "group_df", "top_tfs"])
+    stats = pd.DataFrame(rows, columns=["term", "df", "cf", "n_docs", "n_tokens", "category",
+                                        "group", "group_df", "top_tfs"])
     stats.to_parquet(path)
 
 
@@ -194,4 +197,3 @@ def run(name, index, dataset, categories, rel=1, variant=None, depth=1000):
 if __name__ == "__main__":
     for name, cfg in DATASETS.items():
         run(name, **cfg)
-
