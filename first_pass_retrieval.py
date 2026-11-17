@@ -72,6 +72,9 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
 
     docnos = [meta.getItem("docno", i) for i in range(n)]
     by_docid = groups.set_index("docno").reindex(docnos)
+    # document lengths in tokens, to size each group's language model
+    doi = idx.getDocumentIndex()
+    doc_lens = np.fromiter((doi.getDocumentLength(i) for i in range(n)), dtype=np.int64, count=n)
 
     masks = {}
     for cat in categories:
@@ -80,7 +83,10 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
         bits = np.zeros(n, dtype=np.uint32)
         for i, name in enumerate(names):
             bits |= labels.map(lambda gs: name in gs).to_numpy(np.uint32) << i
-        masks[cat] = (names, bits)
+        # documents and tokens in each group (a document can belong to several groups)
+        sizes = [(int(m.sum()), int(doc_lens[m].sum()))
+                 for m in (((bits >> i) & 1).astype(bool) for i in range(len(names)))]
+        masks[cat] = (names, bits, sizes)
 
     rows = []
     for term in sorted({t for ts in terms for t in ts}):
@@ -92,15 +98,18 @@ def save_term_stats(path, idx, terms, groups, categories, k=GEP_K):
             ids.append(posting.getId())
             tfs.append(posting.getFrequency())
         ids, tfs = np.array(ids), np.array(tfs)
-        for cat, (names, bits) in masks.items():
+        for cat, (names, bits, sizes) in masks.items():
             for i, name in enumerate(names):
                 in_group = ((bits[ids] >> i) & 1).astype(bool)
                 top = np.sort(tfs[in_group])[::-1][:k]
+                group_n_docs, group_n_tokens = sizes[i]
                 rows.append((term, le.getDocumentFrequency(), le.getFrequency(), n, n_tokens,
-                             cat, name, int(in_group.sum()), top.tolist()))
+                             cat, name, int(in_group.sum()), int(tfs[in_group].sum()),
+                             group_n_docs, group_n_tokens, top.tolist()))
 
     stats = pd.DataFrame(rows, columns=["term", "df", "cf", "n_docs", "n_tokens", "category",
-                                        "group", "group_df", "top_tfs"])
+                                        "group", "group_df", "group_cf", "group_n_docs",
+                                        "group_n_tokens", "top_tfs"])
     stats.to_parquet(path)
 
 
