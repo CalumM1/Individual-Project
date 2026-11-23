@@ -1,0 +1,15 @@
+qid,topic_id,query_raw,reason
+111-15,111,snake venom,duplicate after stemming
+265-26,265,astronomical observations,duplicate after stemming
+397-17,397,r&b singers,duplicate after stemming
+426-32,426,book history,duplicate after stemming
+475-11,475,marketing,duplicate after stemming
+475-49,475,e-commerce,duplicate after stemming
+594-22,594,chemical industry,duplicate after stemming
+594-50,594,chemical toxicity,duplicate after stemming
+677-19,677,classical period music,duplicate after stemming
+726-02,726,computers,duplicate after stemming
+893-08,893,engineers,duplicate after stemming
+893-27,893,engines,duplicate after stemming
+2213-13,2213,ski mountains,duplicate after stemming
+2213-15,2213,snowboarders,duplicate after stemming

@@ -1,0 +1,19 @@
+qid,topic_id,query_raw,reason
+11-11,11,marketing,duplicate after stemming
+11-49,11,e-commerce,duplicate after stemming
+12-41,12,canadian by-elections,duplicate after stemming
+12-48,12,canadian senators,duplicate after stemming
+12-49,12,canadian party politics,duplicate after stemming
+20-50,20,people with disabilities,duplicate after stemming
+21-08,21,engineers,duplicate after stemming
+21-27,21,engines,duplicate after stemming
+23-18,23,club football,duplicate after stemming
+23-19,23,football associations,duplicate after stemming
+25-02,25,gymnasts,duplicate after stemming
+34-02,34,linguists,duplicate after stemming
+42-19,42,labor organizing,duplicate after stemming
+50-05,50,marathons,duplicate after stemming
+51-13,51,ski mountains,duplicate after stemming
+51-15,51,snowboarders,duplicate after stemming
+53-23,53,swimming competitions,duplicate after stemming
+56-24,56,women in history,duplicate after stemming
