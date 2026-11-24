@@ -1,0 +1,724 @@
+dataset,system,category,topic_id,topic_title,jsd,jsd_std,n
+trec_fair_2021_llm,bm25,geo_location,1,Agriculture,0.34160841069497644,0.04755543564771163,50
+trec_fair_2021_llm,bm25,geo_location,2,Architecture,0.36010739213205717,0.0468213550548889,50
+trec_fair_2021_llm,bm25,geo_location,3,Athletics,0.38874119241041977,0.0634446955206353,50
+trec_fair_2021_llm,bm25,geo_location,4,Aviation,0.34802192200209775,0.047985958004445016,50
+trec_fair_2021_llm,bm25,geo_location,5,Baseball,0.3951999138534893,0.05478780969301717,50
+trec_fair_2021_llm,bm25,geo_location,6,Biography/science and academia work group,0.37893355190614386,0.05687552245688766,50
+trec_fair_2021_llm,bm25,geo_location,7,Biography/sports and games work group,0.3993110726148703,0.0577998665587932,50
+trec_fair_2021_llm,bm25,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.39952202376953855,0.0744967874818657,50
+trec_fair_2021_llm,bm25,geo_location,9,Boxing,0.3834435519181995,0.04983360265736567,50
+trec_fair_2021_llm,bm25,geo_location,10,Buddhism,0.29339593650490814,0.04213493729877762,50
+trec_fair_2021_llm,bm25,geo_location,11,Business,0.3489201432208075,0.04852461380309901,48
+trec_fair_2021_llm,bm25,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.3091712110900368,0.06101168163519109,47
+trec_fair_2021_llm,bm25,geo_location,13,Chess,0.31144090634414495,0.05347163486271943,50
+trec_fair_2021_llm,bm25,geo_location,14,Children's literature,0.37125672371895774,0.05444509833989727,50
+trec_fair_2021_llm,bm25,geo_location,15,Composers,0.37265291678186235,0.06477574796106332,50
+trec_fair_2021_llm,bm25,geo_location,16,Computer science,0.29745013595205233,0.06530214494597099,50
+trec_fair_2021_llm,bm25,geo_location,17,Cricket,0.39938587937041903,0.06180987188740376,50
+trec_fair_2021_llm,bm25,geo_location,18,Cycling,0.3508033521899283,0.08183763616607014,50
+trec_fair_2021_llm,bm25,geo_location,19,Dance/WikiProject Ballet,0.31600339941576905,0.05555557246696296,50
+trec_fair_2021_llm,bm25,geo_location,20,Disability,0.3099434879773834,0.05416969222308709,49
+trec_fair_2021_llm,bm25,geo_location,21,Engineering,0.3586772505205527,0.056651041050037584,48
+trec_fair_2021_llm,bm25,geo_location,22,Fencing,0.3418366071495329,0.07266442630112005,50
+trec_fair_2021_llm,bm25,geo_location,23,Football,0.4351869330086515,0.035062104417029054,48
+trec_fair_2021_llm,bm25,geo_location,24,Former countries,0.2993715050154309,0.05579965563753638,50
+trec_fair_2021_llm,bm25,geo_location,25,Gymnastics,0.36592530107233123,0.060713883102124715,49
+trec_fair_2021_llm,bm25,geo_location,26,Human rights,0.3289209379320032,0.04487187435214929,50
+trec_fair_2021_llm,bm25,geo_location,27,Indigenous peoples of the Americas,0.2521847153304806,0.04475272448839761,50
+trec_fair_2021_llm,bm25,geo_location,28,Japan/Biography task force,0.38414826078191255,0.05558741681285035,50
+trec_fair_2021_llm,bm25,geo_location,29,Jewish history,0.3643156209344429,0.06835421520921428,50
+trec_fair_2021_llm,bm25,geo_location,30,Journalism,0.353442355929213,0.05245360811920914,50
+trec_fair_2021_llm,bm25,geo_location,31,Law,0.33594021531621215,0.04710891095124657,50
+trec_fair_2021_llm,bm25,geo_location,32,LGBT studies/LGBT Person task force,0.3084997710549121,0.05307526604442295,50
+trec_fair_2021_llm,bm25,geo_location,33,Libraries,0.32807363454974026,0.07010329654420912,50
+trec_fair_2021_llm,bm25,geo_location,34,Linguistics,0.3111161884837678,0.06987548028283555,49
+trec_fair_2021_llm,bm25,geo_location,35,Literature,0.36057944044856294,0.046385451045869386,50
+trec_fair_2021_llm,bm25,geo_location,36,Medicine,0.3160413238393209,0.06388090167639682,50
+trec_fair_2021_llm,bm25,geo_location,37,Middle Ages,0.3284477546708589,0.059182756473637854,50
+trec_fair_2021_llm,bm25,geo_location,38,Mixed martial arts,0.35672238136786555,0.05007334024371091,50
+trec_fair_2021_llm,bm25,geo_location,39,Musical Theatre,0.4084700756892504,0.0635466577544362,50
+trec_fair_2021_llm,bm25,geo_location,40,Netherlands,0.35084091490143005,0.04378914615661368,50
+trec_fair_2021_llm,bm25,geo_location,41,Olympics,0.3987708477846184,0.05936283449280913,50
+trec_fair_2021_llm,bm25,geo_location,42,Organized Labour,0.3497114952313052,0.05426282974538191,49
+trec_fair_2021_llm,bm25,geo_location,43,Philately,0.26607457616082775,0.04940376930265243,50
+trec_fair_2021_llm,bm25,geo_location,44,Photography,0.3581985189808895,0.05832981191631047,50
+trec_fair_2021_llm,bm25,geo_location,45,Poetry,0.3407633686733179,0.06019687174535802,50
+trec_fair_2021_llm,bm25,geo_location,46,Politics,0.3257419441265925,0.06487723149438122,50
+trec_fair_2021_llm,bm25,geo_location,47,Punk music,0.3242276223332948,0.05879664722608461,50
+trec_fair_2021_llm,bm25,geo_location,48,Referees,0.37038880173069033,0.059893828137085076,50
+trec_fair_2021_llm,bm25,geo_location,49,Rowing,0.34608330344342825,0.053317806808292977,50
+trec_fair_2021_llm,bm25,geo_location,50,Running,0.3637843547145143,0.06411152791755471,49
+trec_fair_2021_llm,bm25,geo_location,51,Skiing and Snowboarding,0.33052912119170635,0.07493937032950222,48
+trec_fair_2021_llm,bm25,geo_location,52,Southeast Asia,0.3380286416812696,0.046931433992554464,50
+trec_fair_2021_llm,bm25,geo_location,53,Swimming,0.36333353417279335,0.05851232901253824,49
+trec_fair_2021_llm,bm25,geo_location,54,Television,0.3646588247487007,0.05436452394567229,50
+trec_fair_2021_llm,bm25,geo_location,55,Volcanoes,0.2965071290822434,0.06628656866753152,50
+trec_fair_2021_llm,bm25,geo_location,56,Women,0.3925159906042344,0.04304069882339257,49
+trec_fair_2021_llm,bm25,geo_location,57,Nigeria,0.35666261966575424,0.06195731930266957,50
+trec_fair_2021_llm,dirichlet,geo_location,1,Agriculture,0.2646912913614134,0.0469873897636538,50
+trec_fair_2021_llm,dirichlet,geo_location,2,Architecture,0.2735842387294352,0.0488394465612742,50
+trec_fair_2021_llm,dirichlet,geo_location,3,Athletics,0.2782915482558906,0.05866247091891985,50
+trec_fair_2021_llm,dirichlet,geo_location,4,Aviation,0.2533153277984283,0.05308881857443361,50
+trec_fair_2021_llm,dirichlet,geo_location,5,Baseball,0.2581926842514749,0.05954820149393402,50
+trec_fair_2021_llm,dirichlet,geo_location,6,Biography/science and academia work group,0.2710395304151962,0.047476593078038386,50
+trec_fair_2021_llm,dirichlet,geo_location,7,Biography/sports and games work group,0.28606567814534484,0.05168825638233571,50
+trec_fair_2021_llm,dirichlet,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.28740698806452913,0.059699101268116644,50
+trec_fair_2021_llm,dirichlet,geo_location,9,Boxing,0.26615935597838275,0.044963808991350905,50
+trec_fair_2021_llm,dirichlet,geo_location,10,Buddhism,0.17269329928086397,0.0388017732401103,50
+trec_fair_2021_llm,dirichlet,geo_location,11,Business,0.26640169084315307,0.04439163526230472,48
+trec_fair_2021_llm,dirichlet,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.2438912242785002,0.042605205521943565,47
+trec_fair_2021_llm,dirichlet,geo_location,13,Chess,0.20717326783367532,0.04584479967835892,50
+trec_fair_2021_llm,dirichlet,geo_location,14,Children's literature,0.25858010251161695,0.0417258449052279,50
+trec_fair_2021_llm,dirichlet,geo_location,15,Composers,0.2544132119041957,0.06088426360297821,50
+trec_fair_2021_llm,dirichlet,geo_location,16,Computer science,0.24570626193778064,0.05347382364085924,50
+trec_fair_2021_llm,dirichlet,geo_location,17,Cricket,0.2777742379223042,0.05956976828093161,50
+trec_fair_2021_llm,dirichlet,geo_location,18,Cycling,0.2593206081977255,0.06847852944283181,50
+trec_fair_2021_llm,dirichlet,geo_location,19,Dance/WikiProject Ballet,0.22670954336584778,0.04074725141987864,50
+trec_fair_2021_llm,dirichlet,geo_location,20,Disability,0.229354730500416,0.04822205363865718,49
+trec_fair_2021_llm,dirichlet,geo_location,21,Engineering,0.24712887411528098,0.04167286578005475,48
+trec_fair_2021_llm,dirichlet,geo_location,22,Fencing,0.26112727414551345,0.060438866441897963,50
+trec_fair_2021_llm,dirichlet,geo_location,23,Football,0.33541919688142663,0.051760608455270356,48
+trec_fair_2021_llm,dirichlet,geo_location,24,Former countries,0.2211130707584144,0.04741042278984861,50
+trec_fair_2021_llm,dirichlet,geo_location,25,Gymnastics,0.25916884753973485,0.04834325229292944,49
+trec_fair_2021_llm,dirichlet,geo_location,26,Human rights,0.2532755588042475,0.033860369716632636,50
+trec_fair_2021_llm,dirichlet,geo_location,27,Indigenous peoples of the Americas,0.19299994024861408,0.039624323998269075,50
+trec_fair_2021_llm,dirichlet,geo_location,28,Japan/Biography task force,0.25610804968369083,0.03415828481401575,50
+trec_fair_2021_llm,dirichlet,geo_location,29,Jewish history,0.2135003365221957,0.06342558158605179,50
+trec_fair_2021_llm,dirichlet,geo_location,30,Journalism,0.2450346290363188,0.047747324565665064,50
+trec_fair_2021_llm,dirichlet,geo_location,31,Law,0.2387124092451754,0.03721464687705981,50
+trec_fair_2021_llm,dirichlet,geo_location,32,LGBT studies/LGBT Person task force,0.23974954250123545,0.039902377677730236,50
+trec_fair_2021_llm,dirichlet,geo_location,33,Libraries,0.2505445868091899,0.052277794485086716,50
+trec_fair_2021_llm,dirichlet,geo_location,34,Linguistics,0.23477213660802793,0.060290217597792364,49
+trec_fair_2021_llm,dirichlet,geo_location,35,Literature,0.2586544060380058,0.036592225594885855,50
+trec_fair_2021_llm,dirichlet,geo_location,36,Medicine,0.22645857023565738,0.04302246461427466,50
+trec_fair_2021_llm,dirichlet,geo_location,37,Middle Ages,0.2435801071979775,0.05808122385613871,50
+trec_fair_2021_llm,dirichlet,geo_location,38,Mixed martial arts,0.276077473307047,0.053647410032738554,50
+trec_fair_2021_llm,dirichlet,geo_location,39,Musical Theatre,0.29325912482615024,0.04681806822742329,50
+trec_fair_2021_llm,dirichlet,geo_location,40,Netherlands,0.25511438087827143,0.05037661031441099,50
+trec_fair_2021_llm,dirichlet,geo_location,41,Olympics,0.2626653859462253,0.06337692357193635,50
+trec_fair_2021_llm,dirichlet,geo_location,42,Organized Labour,0.2436891982827542,0.03569366666189639,49
+trec_fair_2021_llm,dirichlet,geo_location,43,Philately,0.17949428376927834,0.040380828501116274,50
+trec_fair_2021_llm,dirichlet,geo_location,44,Photography,0.27259708800785426,0.05873650506921594,50
+trec_fair_2021_llm,dirichlet,geo_location,45,Poetry,0.23805799380471096,0.04971929379249567,50
+trec_fair_2021_llm,dirichlet,geo_location,46,Politics,0.2428356495591988,0.04994118123995649,50
+trec_fair_2021_llm,dirichlet,geo_location,47,Punk music,0.21125911709927198,0.04826546528925176,50
+trec_fair_2021_llm,dirichlet,geo_location,48,Referees,0.2712004279540429,0.06257893425570325,50
+trec_fair_2021_llm,dirichlet,geo_location,49,Rowing,0.26175138477395665,0.051388621627807864,50
+trec_fair_2021_llm,dirichlet,geo_location,50,Running,0.25689025379804353,0.04608306327722167,49
+trec_fair_2021_llm,dirichlet,geo_location,51,Skiing and Snowboarding,0.23456733848019787,0.06011397562426092,48
+trec_fair_2021_llm,dirichlet,geo_location,52,Southeast Asia,0.2221653305892125,0.04422787613706866,50
+trec_fair_2021_llm,dirichlet,geo_location,53,Swimming,0.28033225661756206,0.05923731048028769,49
+trec_fair_2021_llm,dirichlet,geo_location,54,Television,0.2467913971334374,0.048775515927740494,50
+trec_fair_2021_llm,dirichlet,geo_location,55,Volcanoes,0.19848576421260208,0.05809044400859263,50
+trec_fair_2021_llm,dirichlet,geo_location,56,Women,0.28398429664362235,0.04796323736973532,49
+trec_fair_2021_llm,dirichlet,geo_location,57,Nigeria,0.2724843081909672,0.05741195899702701,50
+trec_fair_2021_llm,tfidf,geo_location,1,Agriculture,0.3418276336516915,0.04775646700615278,50
+trec_fair_2021_llm,tfidf,geo_location,2,Architecture,0.35998430611640553,0.04681365299120369,50
+trec_fair_2021_llm,tfidf,geo_location,3,Athletics,0.38854319776608265,0.06359856985484567,50
+trec_fair_2021_llm,tfidf,geo_location,4,Aviation,0.3480775460809466,0.04818442612322489,50
+trec_fair_2021_llm,tfidf,geo_location,5,Baseball,0.3937949198576974,0.05472059936605693,50
+trec_fair_2021_llm,tfidf,geo_location,6,Biography/science and academia work group,0.3793709282500933,0.05678974289519043,50
+trec_fair_2021_llm,tfidf,geo_location,7,Biography/sports and games work group,0.40046370648309043,0.057750515000021325,50
+trec_fair_2021_llm,tfidf,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.39960120567828566,0.0741685954618504,50
+trec_fair_2021_llm,tfidf,geo_location,9,Boxing,0.38360584765475225,0.049498497955972665,50
+trec_fair_2021_llm,tfidf,geo_location,10,Buddhism,0.29332974683015967,0.04266373042361375,50
+trec_fair_2021_llm,tfidf,geo_location,11,Business,0.3496373961478459,0.04866702609167908,48
+trec_fair_2021_llm,tfidf,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.3089211984210265,0.060525412413941965,47
+trec_fair_2021_llm,tfidf,geo_location,13,Chess,0.3109917922099093,0.052977050944463956,50
+trec_fair_2021_llm,tfidf,geo_location,14,Children's literature,0.372568099886301,0.052771917735035465,50
+trec_fair_2021_llm,tfidf,geo_location,15,Composers,0.372145586796476,0.06520402600419899,50
+trec_fair_2021_llm,tfidf,geo_location,16,Computer science,0.29739439753569763,0.06533250411605428,50
+trec_fair_2021_llm,tfidf,geo_location,17,Cricket,0.39907254145953436,0.061724515592342065,50
+trec_fair_2021_llm,tfidf,geo_location,18,Cycling,0.35040685991773807,0.0819153027328054,50
+trec_fair_2021_llm,tfidf,geo_location,19,Dance/WikiProject Ballet,0.3165499315334012,0.05545150988487345,50
+trec_fair_2021_llm,tfidf,geo_location,20,Disability,0.3100531687395012,0.05414861613769085,49
+trec_fair_2021_llm,tfidf,geo_location,21,Engineering,0.359495773354094,0.056543036524649225,48
+trec_fair_2021_llm,tfidf,geo_location,22,Fencing,0.3426493147685432,0.07281307749151417,50
+trec_fair_2021_llm,tfidf,geo_location,23,Football,0.4353929063001432,0.03497150847275641,48
+trec_fair_2021_llm,tfidf,geo_location,24,Former countries,0.2998592075890172,0.05564436851644688,50
+trec_fair_2021_llm,tfidf,geo_location,25,Gymnastics,0.36807558202785295,0.0604226522774841,49
+trec_fair_2021_llm,tfidf,geo_location,26,Human rights,0.32924057951851393,0.04475469753927587,50
+trec_fair_2021_llm,tfidf,geo_location,27,Indigenous peoples of the Americas,0.2526690883920011,0.044941578619429906,50
+trec_fair_2021_llm,tfidf,geo_location,28,Japan/Biography task force,0.3839599355433543,0.055904789231930416,50
+trec_fair_2021_llm,tfidf,geo_location,29,Jewish history,0.3645520596450187,0.06835125499796753,50
+trec_fair_2021_llm,tfidf,geo_location,30,Journalism,0.35422538018118715,0.05087545855998829,50
+trec_fair_2021_llm,tfidf,geo_location,31,Law,0.3361531169686332,0.04718103102094266,50
+trec_fair_2021_llm,tfidf,geo_location,32,LGBT studies/LGBT Person task force,0.30839809698436693,0.051875904008371304,50
+trec_fair_2021_llm,tfidf,geo_location,33,Libraries,0.32750383840046643,0.06982951186355862,50
+trec_fair_2021_llm,tfidf,geo_location,34,Linguistics,0.3114194804319616,0.07013411898552081,49
+trec_fair_2021_llm,tfidf,geo_location,35,Literature,0.3606999097003699,0.04628479430630103,50
+trec_fair_2021_llm,tfidf,geo_location,36,Medicine,0.31592268326974904,0.06380200359342195,50
+trec_fair_2021_llm,tfidf,geo_location,37,Middle Ages,0.32928136943262565,0.059554294059913956,50
+trec_fair_2021_llm,tfidf,geo_location,38,Mixed martial arts,0.35667317083262257,0.05075834619848158,50
+trec_fair_2021_llm,tfidf,geo_location,39,Musical Theatre,0.4084798482257348,0.06379846889348594,50
+trec_fair_2021_llm,tfidf,geo_location,40,Netherlands,0.35080081063039964,0.04338506962959495,50
+trec_fair_2021_llm,tfidf,geo_location,41,Olympics,0.3976180130987968,0.05961109330273737,50
+trec_fair_2021_llm,tfidf,geo_location,42,Organized Labour,0.3495961067053874,0.053755269766558436,49
+trec_fair_2021_llm,tfidf,geo_location,43,Philately,0.26648068945316766,0.04974278970572693,50
+trec_fair_2021_llm,tfidf,geo_location,44,Photography,0.35869279396777265,0.05849248664610862,50
+trec_fair_2021_llm,tfidf,geo_location,45,Poetry,0.340562040927071,0.05939085368746759,50
+trec_fair_2021_llm,tfidf,geo_location,46,Politics,0.32518877666511414,0.06465208970794047,50
+trec_fair_2021_llm,tfidf,geo_location,47,Punk music,0.3254802204461866,0.05857796334555685,50
+trec_fair_2021_llm,tfidf,geo_location,48,Referees,0.37020791622640226,0.059879991658831934,50
+trec_fair_2021_llm,tfidf,geo_location,49,Rowing,0.346179235449926,0.05333731299338668,50
+trec_fair_2021_llm,tfidf,geo_location,50,Running,0.36335321339094073,0.06370898434316348,49
+trec_fair_2021_llm,tfidf,geo_location,51,Skiing and Snowboarding,0.33114402366103507,0.07486882333215361,48
+trec_fair_2021_llm,tfidf,geo_location,52,Southeast Asia,0.33750590324701113,0.046530313011696536,50
+trec_fair_2021_llm,tfidf,geo_location,53,Swimming,0.36426189130354053,0.058236688882830956,49
+trec_fair_2021_llm,tfidf,geo_location,54,Television,0.3638241485434214,0.05345105054698837,50
+trec_fair_2021_llm,tfidf,geo_location,55,Volcanoes,0.2958703712886717,0.06653247020059326,50
+trec_fair_2021_llm,tfidf,geo_location,56,Women,0.3931225945781734,0.04431584899136744,49
+trec_fair_2021_llm,tfidf,geo_location,57,Nigeria,0.35754365551989153,0.061488947414749404,50
+trec_fair_2022_llm,bm25,age_of_article,84,Agriculture,0.14833876487886008,0.04879917489862263,50
+trec_fair_2022_llm,bm25,age_of_article,111,Amphibians and Reptiles,0.2117354345755088,0.12723336759732637,49
+trec_fair_2022_llm,bm25,age_of_article,265,Astronomy,0.1562900461163144,0.057043762891531694,49
+trec_fair_2022_llm,bm25,age_of_article,323,Aviation,0.16637414879546866,0.05495278760015714,50
+trec_fair_2022_llm,bm25,age_of_article,396,Biography/WikiProject Actors and Filmmakers,0.18284789288452674,0.06049445707294029,50
+trec_fair_2022_llm,bm25,age_of_article,397,Biography/WikiProject Musicians,0.1736324870431492,0.05523718252911824,49
+trec_fair_2022_llm,bm25,age_of_article,403,Biography/science and academia work group,0.18295021037140016,0.0732999827270276,50
+trec_fair_2022_llm,bm25,age_of_article,409,Birds,0.18556145240996447,0.10125408747140952,50
+trec_fair_2022_llm,bm25,age_of_article,426,Books,0.16855314703829682,0.07117105915562082,49
+trec_fair_2022_llm,bm25,age_of_article,475,Business,0.16231529922871626,0.04162490786845971,48
+trec_fair_2022_llm,bm25,age_of_article,594,Chemicals,0.15283729333698123,0.06668700151952928,48
+trec_fair_2022_llm,bm25,age_of_article,620,Christianity,0.1413464114080588,0.05395084426565615,50
+trec_fair_2022_llm,bm25,age_of_article,666,Cities,0.1594349942454851,0.05498945548617339,50
+trec_fair_2022_llm,bm25,age_of_article,677,Classical music,0.1694290806051369,0.042106758482187236,49
+trec_fair_2022_llm,bm25,age_of_article,724,Computer science,0.18247686189609907,0.06696083752971342,50
+trec_fair_2022_llm,bm25,age_of_article,726,Computing,0.17699833388640446,0.054532112460487316,49
+trec_fair_2022_llm,bm25,age_of_article,765,Cricket,0.19594409407571972,0.08317745731538259,50
+trec_fair_2022_llm,bm25,age_of_article,770,Crime and Criminal Biography,0.13393223025114784,0.06436463971596103,50
+trec_fair_2022_llm,bm25,age_of_article,785,Cycling,0.18950511910108397,0.0927649498954531,50
+trec_fair_2022_llm,bm25,age_of_article,805,Dams,0.20481571006112353,0.10107811985603582,50
+trec_fair_2022_llm,bm25,age_of_article,893,Engineering,0.16285175603524185,0.04331789352109271,48
+trec_fair_2022_llm,bm25,age_of_article,956,Film/American cinema task force,0.17648192977781726,0.0682180549864193,50
+trec_fair_2022_llm,bm25,age_of_article,1055,Former countries,0.16504510285164486,0.058889751765808095,50
+trec_fair_2022_llm,bm25,age_of_article,1102,Geography,0.16329886031225654,0.05190392112926269,50
+trec_fair_2022_llm,bm25,age_of_article,1225,Human rights,0.14261213709602127,0.04890123680594632,50
+trec_fair_2022_llm,bm25,age_of_article,1319,Insects,0.18796935179803,0.10136689276417805,50
+trec_fair_2022_llm,bm25,age_of_article,1343,Islam,0.14021964174737264,0.0443571601229693,50
+trec_fair_2022_llm,bm25,age_of_article,1368,Japan,0.1505587679476598,0.055983617641108395,50
+trec_fair_2022_llm,bm25,age_of_article,1371,Japan/Biography task force,0.20784254132919486,0.07018614586859707,50
+trec_fair_2022_llm,bm25,age_of_article,1412,Jewish history,0.13877802879153303,0.04594595798499668,50
+trec_fair_2022_llm,bm25,age_of_article,1457,Languages,0.1546569160267133,0.050699425551096106,50
+trec_fair_2022_llm,bm25,age_of_article,1509,Literature,0.1488841118817482,0.054407612805562076,50
+trec_fair_2022_llm,bm25,age_of_article,1565,Medicine,0.143560548128997,0.044766807388644685,50
+trec_fair_2022_llm,bm25,age_of_article,1625,Middle Ages,0.14287250817897257,0.057585882461030045,50
+trec_fair_2022_llm,bm25,age_of_article,1630,Military history,0.15390100582107671,0.05210780731650675,50
+trec_fair_2022_llm,bm25,age_of_article,1656,Military history/Maritime warfare task force,0.14932221509719015,0.04939053169040187,50
+trec_fair_2022_llm,bm25,age_of_article,1715,Motorsport,0.1630269629542622,0.056083908813747065,50
+trec_fair_2022_llm,bm25,age_of_article,1773,Netherlands,0.1878642288066326,0.0543034905396172,50
+trec_fair_2022_llm,bm25,age_of_article,1970,Photography,0.13870262633994346,0.04038165502998659,50
+trec_fair_2022_llm,bm25,age_of_article,2006,Politics,0.167986571856442,0.06557163102980143,50
+trec_fair_2022_llm,bm25,age_of_article,2213,Skiing and Snowboarding,0.18801956738331493,0.06145837299537714,48
+trec_fair_2022_llm,bm25,age_of_article,2272,Southeast Asia,0.1647310994919235,0.05864905498445028,50
+trec_fair_2022_llm,bm25,age_of_article,2365,Television,0.16499255613946698,0.05769284621654,50
+trec_fair_2022_llm,bm25,age_of_article,2429,Tennis,0.2267416914864867,0.09927038692474888,50
+trec_fair_2022_llm,bm25,age_of_article,2465,Trains,0.1702224436729719,0.06487269529850925,50
+trec_fair_2022_llm,bm25,age_of_article,2741,Video games,0.16441011525113697,0.06869537556441867,50
+trec_fair_2022_llm,dirichlet,age_of_article,84,Agriculture,0.1760517907981487,0.05759477331709817,50
+trec_fair_2022_llm,dirichlet,age_of_article,111,Amphibians and Reptiles,0.17464967974177056,0.06430434463776663,49
+trec_fair_2022_llm,dirichlet,age_of_article,265,Astronomy,0.22207611921666817,0.07067386635006807,49
+trec_fair_2022_llm,dirichlet,age_of_article,323,Aviation,0.2279037158662437,0.08321263501675114,50
+trec_fair_2022_llm,dirichlet,age_of_article,396,Biography/WikiProject Actors and Filmmakers,0.20798115284398183,0.07141992439760196,50
+trec_fair_2022_llm,dirichlet,age_of_article,397,Biography/WikiProject Musicians,0.20513378742930408,0.07630152290247923,49
+trec_fair_2022_llm,dirichlet,age_of_article,403,Biography/science and academia work group,0.17005128474809067,0.06428091716291272,50
+trec_fair_2022_llm,dirichlet,age_of_article,409,Birds,0.2424043701310995,0.09170629420825274,50
+trec_fair_2022_llm,dirichlet,age_of_article,426,Books,0.2132468990052684,0.06413451705348036,49
+trec_fair_2022_llm,dirichlet,age_of_article,475,Business,0.20847387809321372,0.059499304628725956,48
+trec_fair_2022_llm,dirichlet,age_of_article,594,Chemicals,0.20288339117207976,0.07665392317708425,48
+trec_fair_2022_llm,dirichlet,age_of_article,620,Christianity,0.2051082775452242,0.05733622028618782,50
+trec_fair_2022_llm,dirichlet,age_of_article,666,Cities,0.26428213965854885,0.07562928880387779,50
+trec_fair_2022_llm,dirichlet,age_of_article,677,Classical music,0.2275729590123962,0.07795768891112054,49
+trec_fair_2022_llm,dirichlet,age_of_article,724,Computer science,0.2607125298317872,0.0816141725186236,50
+trec_fair_2022_llm,dirichlet,age_of_article,726,Computing,0.25545798822653126,0.08531769357996133,49
+trec_fair_2022_llm,dirichlet,age_of_article,765,Cricket,0.25074314006823945,0.0756825398380923,50
+trec_fair_2022_llm,dirichlet,age_of_article,770,Crime and Criminal Biography,0.16946389545728113,0.06539548447613758,50
+trec_fair_2022_llm,dirichlet,age_of_article,785,Cycling,0.19674686899747676,0.06740867315390163,50
+trec_fair_2022_llm,dirichlet,age_of_article,805,Dams,0.1832497579812898,0.06675437219932,50
+trec_fair_2022_llm,dirichlet,age_of_article,893,Engineering,0.23813847651899012,0.07425743996008312,48
+trec_fair_2022_llm,dirichlet,age_of_article,956,Film/American cinema task force,0.23149222032390096,0.06787412838973758,50
+trec_fair_2022_llm,dirichlet,age_of_article,1055,Former countries,0.23933283950108739,0.05730566585995006,50
+trec_fair_2022_llm,dirichlet,age_of_article,1102,Geography,0.21466178125974456,0.06570082175934204,50
+trec_fair_2022_llm,dirichlet,age_of_article,1225,Human rights,0.23270502887451017,0.08188772597843666,50
+trec_fair_2022_llm,dirichlet,age_of_article,1319,Insects,0.157595065183172,0.06275753074099763,50
+trec_fair_2022_llm,dirichlet,age_of_article,1343,Islam,0.17654143462835636,0.062414678382193514,50
+trec_fair_2022_llm,dirichlet,age_of_article,1368,Japan,0.20592967212852567,0.04969511833526385,50
+trec_fair_2022_llm,dirichlet,age_of_article,1371,Japan/Biography task force,0.20099838134198894,0.053823739370539664,50
+trec_fair_2022_llm,dirichlet,age_of_article,1412,Jewish history,0.19534287410263448,0.06707742549230383,50
+trec_fair_2022_llm,dirichlet,age_of_article,1457,Languages,0.2719399210085549,0.06339209608941651,50
+trec_fair_2022_llm,dirichlet,age_of_article,1509,Literature,0.20116619435269073,0.05683114023017304,50
+trec_fair_2022_llm,dirichlet,age_of_article,1565,Medicine,0.15243646461563495,0.07289853220508652,50
+trec_fair_2022_llm,dirichlet,age_of_article,1625,Middle Ages,0.20665285508324502,0.07401353065079208,50
+trec_fair_2022_llm,dirichlet,age_of_article,1630,Military history,0.22373762253866453,0.06277251391337804,50
+trec_fair_2022_llm,dirichlet,age_of_article,1656,Military history/Maritime warfare task force,0.2179948684474226,0.06604483827711939,50
+trec_fair_2022_llm,dirichlet,age_of_article,1715,Motorsport,0.20165068377633538,0.07067735734925464,50
+trec_fair_2022_llm,dirichlet,age_of_article,1773,Netherlands,0.22589665054203276,0.05389283693507607,50
+trec_fair_2022_llm,dirichlet,age_of_article,1970,Photography,0.1394582084347981,0.07453314911592118,50
+trec_fair_2022_llm,dirichlet,age_of_article,2006,Politics,0.22058321370836953,0.07997797112683636,50
+trec_fair_2022_llm,dirichlet,age_of_article,2213,Skiing and Snowboarding,0.1930050569332301,0.06790858078951134,48
+trec_fair_2022_llm,dirichlet,age_of_article,2272,Southeast Asia,0.14150893497387154,0.04835870142677643,50
+trec_fair_2022_llm,dirichlet,age_of_article,2365,Television,0.24104273585960262,0.07350286263192309,50
+trec_fair_2022_llm,dirichlet,age_of_article,2429,Tennis,0.19664582157051647,0.06921766281213607,50
+trec_fair_2022_llm,dirichlet,age_of_article,2465,Trains,0.22551737320225765,0.060436989734319366,50
+trec_fair_2022_llm,dirichlet,age_of_article,2741,Video games,0.25860977708677396,0.07266412361406123,50
+trec_fair_2022_llm,tfidf,age_of_article,84,Agriculture,0.14754831780058278,0.04838258855679451,50
+trec_fair_2022_llm,tfidf,age_of_article,111,Amphibians and Reptiles,0.2119708699710398,0.1273315619711009,49
+trec_fair_2022_llm,tfidf,age_of_article,265,Astronomy,0.15591606972283245,0.05706193301596975,49
+trec_fair_2022_llm,tfidf,age_of_article,323,Aviation,0.16527738757002755,0.055871604401880486,50
+trec_fair_2022_llm,tfidf,age_of_article,396,Biography/WikiProject Actors and Filmmakers,0.18285974377235092,0.06097613930651475,50
+trec_fair_2022_llm,tfidf,age_of_article,397,Biography/WikiProject Musicians,0.17435267910634264,0.05517646719956974,49
+trec_fair_2022_llm,tfidf,age_of_article,403,Biography/science and academia work group,0.18203897389242715,0.07483984857130258,50
+trec_fair_2022_llm,tfidf,age_of_article,409,Birds,0.18466103014532312,0.10056024878261145,50
+trec_fair_2022_llm,tfidf,age_of_article,426,Books,0.16744202009995135,0.07096156778228628,49
+trec_fair_2022_llm,tfidf,age_of_article,475,Business,0.16293183593665375,0.04172053369772205,48
+trec_fair_2022_llm,tfidf,age_of_article,594,Chemicals,0.15358307258788687,0.0659789661147842,48
+trec_fair_2022_llm,tfidf,age_of_article,620,Christianity,0.1417025921619769,0.053657888012257786,50
+trec_fair_2022_llm,tfidf,age_of_article,666,Cities,0.1596026442799451,0.054582872317744696,50
+trec_fair_2022_llm,tfidf,age_of_article,677,Classical music,0.1692340480411068,0.04273176785894346,49
+trec_fair_2022_llm,tfidf,age_of_article,724,Computer science,0.18209940693217785,0.06714384949033811,50
+trec_fair_2022_llm,tfidf,age_of_article,726,Computing,0.17674500735221038,0.05493492690943745,49
+trec_fair_2022_llm,tfidf,age_of_article,765,Cricket,0.19669121561732303,0.08232578245818387,50
+trec_fair_2022_llm,tfidf,age_of_article,770,Crime and Criminal Biography,0.13381233082789998,0.06331239156001969,50
+trec_fair_2022_llm,tfidf,age_of_article,785,Cycling,0.18964718648487075,0.09229938024814548,50
+trec_fair_2022_llm,tfidf,age_of_article,805,Dams,0.20497755843549,0.1008208756735221,50
+trec_fair_2022_llm,tfidf,age_of_article,893,Engineering,0.1624547719486816,0.04243518838556764,48
+trec_fair_2022_llm,tfidf,age_of_article,956,Film/American cinema task force,0.17715026288323202,0.07263571209221455,50
+trec_fair_2022_llm,tfidf,age_of_article,1055,Former countries,0.16477771658035378,0.05859292902767926,50
+trec_fair_2022_llm,tfidf,age_of_article,1102,Geography,0.16334008740178826,0.052017292518767785,50
+trec_fair_2022_llm,tfidf,age_of_article,1225,Human rights,0.14276996453605245,0.04900982268821586,50
+trec_fair_2022_llm,tfidf,age_of_article,1319,Insects,0.187694727132818,0.10158711121448388,50
+trec_fair_2022_llm,tfidf,age_of_article,1343,Islam,0.13997680245399022,0.04289787116833129,50
+trec_fair_2022_llm,tfidf,age_of_article,1368,Japan,0.1509250578579315,0.05515467023311759,50
+trec_fair_2022_llm,tfidf,age_of_article,1371,Japan/Biography task force,0.206666373842338,0.0694323403749777,50
+trec_fair_2022_llm,tfidf,age_of_article,1412,Jewish history,0.14085147276605195,0.0467572837903668,50
+trec_fair_2022_llm,tfidf,age_of_article,1457,Languages,0.15466581788630224,0.05070021335411672,50
+trec_fair_2022_llm,tfidf,age_of_article,1509,Literature,0.15054199528320356,0.054048441077464544,50
+trec_fair_2022_llm,tfidf,age_of_article,1565,Medicine,0.14400638709928257,0.04447939165723691,50
+trec_fair_2022_llm,tfidf,age_of_article,1625,Middle Ages,0.14334261766256554,0.05751804495446767,50
+trec_fair_2022_llm,tfidf,age_of_article,1630,Military history,0.15324511836033541,0.052966197096358,50
+trec_fair_2022_llm,tfidf,age_of_article,1656,Military history/Maritime warfare task force,0.14976872101479535,0.05086068018291254,50
+trec_fair_2022_llm,tfidf,age_of_article,1715,Motorsport,0.1632148042990907,0.056781210832671215,50
+trec_fair_2022_llm,tfidf,age_of_article,1773,Netherlands,0.18893735683925386,0.05503198333050068,50
+trec_fair_2022_llm,tfidf,age_of_article,1970,Photography,0.13897956157257108,0.03967791252974875,50
+trec_fair_2022_llm,tfidf,age_of_article,2006,Politics,0.1673501184068662,0.06572150739667702,50
+trec_fair_2022_llm,tfidf,age_of_article,2213,Skiing and Snowboarding,0.1890194762959442,0.06065734933971782,48
+trec_fair_2022_llm,tfidf,age_of_article,2272,Southeast Asia,0.16165953247195325,0.054734609501927774,50
+trec_fair_2022_llm,tfidf,age_of_article,2365,Television,0.16559518851568358,0.05724277292383625,50
+trec_fair_2022_llm,tfidf,age_of_article,2429,Tennis,0.22744212116901644,0.09953587779537326,50
+trec_fair_2022_llm,tfidf,age_of_article,2465,Trains,0.17032701607331002,0.06541258701319151,50
+trec_fair_2022_llm,tfidf,age_of_article,2741,Video games,0.16448817386324904,0.06887170996300342,50
+trec_fair_2022_llm,bm25,age_of_topic,84,Agriculture,0.2388678860171555,0.07865381959769253,50
+trec_fair_2022_llm,bm25,age_of_topic,111,Amphibians and Reptiles,0.33992853065125417,0.11185474697207617,49
+trec_fair_2022_llm,bm25,age_of_topic,265,Astronomy,0.26024444484194176,0.07743648441241698,49
+trec_fair_2022_llm,bm25,age_of_topic,323,Aviation,0.25434142877236204,0.07738537713871854,50
+trec_fair_2022_llm,bm25,age_of_topic,396,Biography/WikiProject Actors and Filmmakers,0.28175731499429835,0.09673162186157196,50
+trec_fair_2022_llm,bm25,age_of_topic,397,Biography/WikiProject Musicians,0.26813042866237863,0.08464290766665696,49
+trec_fair_2022_llm,bm25,age_of_topic,403,Biography/science and academia work group,0.28697381748023465,0.07835808570688282,50
+trec_fair_2022_llm,bm25,age_of_topic,409,Birds,0.2905365018803684,0.10250060711500356,50
+trec_fair_2022_llm,bm25,age_of_topic,426,Books,0.22701985381999185,0.062062627025757,49
+trec_fair_2022_llm,bm25,age_of_topic,475,Business,0.24700374312187978,0.06114094015891335,48
+trec_fair_2022_llm,bm25,age_of_topic,594,Chemicals,0.3322259725131805,0.07975496275072229,48
+trec_fair_2022_llm,bm25,age_of_topic,620,Christianity,0.2353922424553776,0.07475518052700876,50
+trec_fair_2022_llm,bm25,age_of_topic,666,Cities,0.28858039126204565,0.08936529614820313,50
+trec_fair_2022_llm,bm25,age_of_topic,677,Classical music,0.2658205788628818,0.08224470294542453,49
+trec_fair_2022_llm,bm25,age_of_topic,724,Computer science,0.27178323928957,0.05669250902838757,50
+trec_fair_2022_llm,bm25,age_of_topic,726,Computing,0.2635078636413565,0.05738877847239002,49
+trec_fair_2022_llm,bm25,age_of_topic,765,Cricket,0.30288530752289927,0.10032585057279043,50
+trec_fair_2022_llm,bm25,age_of_topic,770,Crime and Criminal Biography,0.2194496645639839,0.06813107259759706,50
+trec_fair_2022_llm,bm25,age_of_topic,785,Cycling,0.26311114971139815,0.11417145964707306,50
+trec_fair_2022_llm,bm25,age_of_topic,805,Dams,0.2843445679219004,0.06405884356940292,50
+trec_fair_2022_llm,bm25,age_of_topic,893,Engineering,0.22865709656124658,0.057272721067712196,48
+trec_fair_2022_llm,bm25,age_of_topic,956,Film/American cinema task force,0.2994800031140447,0.09769599090485769,50
+trec_fair_2022_llm,bm25,age_of_topic,1055,Former countries,0.25167870665780334,0.07983318011218306,50
+trec_fair_2022_llm,bm25,age_of_topic,1102,Geography,0.3395905198492543,0.09080258432261115,50
+trec_fair_2022_llm,bm25,age_of_topic,1225,Human rights,0.2179139400564921,0.04419060242952688,50
+trec_fair_2022_llm,bm25,age_of_topic,1319,Insects,0.3491224756063234,0.09313472024757646,50
+trec_fair_2022_llm,bm25,age_of_topic,1343,Islam,0.21480410139895884,0.05628081729616275,50
+trec_fair_2022_llm,bm25,age_of_topic,1368,Japan,0.22401561550223192,0.06307686378046592,50
+trec_fair_2022_llm,bm25,age_of_topic,1371,Japan/Biography task force,0.2959326127308283,0.09357928921041907,50
+trec_fair_2022_llm,bm25,age_of_topic,1412,Jewish history,0.21043233061451896,0.07797702760234118,50
+trec_fair_2022_llm,bm25,age_of_topic,1457,Languages,0.25730722630482133,0.0702705067848062,50
+trec_fair_2022_llm,bm25,age_of_topic,1509,Literature,0.22997956585674778,0.07344980332783647,50
+trec_fair_2022_llm,bm25,age_of_topic,1565,Medicine,0.22519706887784907,0.08214754230566736,50
+trec_fair_2022_llm,bm25,age_of_topic,1625,Middle Ages,0.24569657817699148,0.08586074064954889,50
+trec_fair_2022_llm,bm25,age_of_topic,1630,Military history,0.2511568489301993,0.081668131838602,50
+trec_fair_2022_llm,bm25,age_of_topic,1656,Military history/Maritime warfare task force,0.25963541216802233,0.07429785041274363,50
+trec_fair_2022_llm,bm25,age_of_topic,1715,Motorsport,0.2485874566727077,0.0660812903440144,50
+trec_fair_2022_llm,bm25,age_of_topic,1773,Netherlands,0.2851427665672151,0.11409680587740827,50
+trec_fair_2022_llm,bm25,age_of_topic,1970,Photography,0.24395001720100828,0.07521740037073286,50
+trec_fair_2022_llm,bm25,age_of_topic,2006,Politics,0.24856873810537866,0.0795663728657323,50
+trec_fair_2022_llm,bm25,age_of_topic,2213,Skiing and Snowboarding,0.28995119557051136,0.11255857018851113,48
+trec_fair_2022_llm,bm25,age_of_topic,2272,Southeast Asia,0.30724808176351603,0.08375335191120736,50
+trec_fair_2022_llm,bm25,age_of_topic,2365,Television,0.2439808630076757,0.075724891327428,50
+trec_fair_2022_llm,bm25,age_of_topic,2429,Tennis,0.28813920788173136,0.10482492178680533,50
+trec_fair_2022_llm,bm25,age_of_topic,2465,Trains,0.22710187586966885,0.08352300834099373,50
+trec_fair_2022_llm,bm25,age_of_topic,2741,Video games,0.29425277070579325,0.07003837527529916,50
+trec_fair_2022_llm,dirichlet,age_of_topic,84,Agriculture,0.2661794534854793,0.07184538994123713,50
+trec_fair_2022_llm,dirichlet,age_of_topic,111,Amphibians and Reptiles,0.28098965674762927,0.10541023516853944,49
+trec_fair_2022_llm,dirichlet,age_of_topic,265,Astronomy,0.21455911897365412,0.06652538310871675,49
+trec_fair_2022_llm,dirichlet,age_of_topic,323,Aviation,0.23561654769502713,0.05416531688817962,50
+trec_fair_2022_llm,dirichlet,age_of_topic,396,Biography/WikiProject Actors and Filmmakers,0.24555996926364057,0.07385034011626603,50
+trec_fair_2022_llm,dirichlet,age_of_topic,397,Biography/WikiProject Musicians,0.23511833234111004,0.07333584122005671,49
+trec_fair_2022_llm,dirichlet,age_of_topic,403,Biography/science and academia work group,0.23287031699037775,0.06496038508631868,50
+trec_fair_2022_llm,dirichlet,age_of_topic,409,Birds,0.28250363730897976,0.1092247616296767,50
+trec_fair_2022_llm,dirichlet,age_of_topic,426,Books,0.2031290467792168,0.0688001032690986,49
+trec_fair_2022_llm,dirichlet,age_of_topic,475,Business,0.24154664798056605,0.0718129290799888,48
+trec_fair_2022_llm,dirichlet,age_of_topic,594,Chemicals,0.28922639181484516,0.06389291633139844,48
+trec_fair_2022_llm,dirichlet,age_of_topic,620,Christianity,0.21770160637785088,0.0574481668749021,50
+trec_fair_2022_llm,dirichlet,age_of_topic,666,Cities,0.2407148754692399,0.07204511512100537,50
+trec_fair_2022_llm,dirichlet,age_of_topic,677,Classical music,0.20774457317381953,0.06696594382890941,49
+trec_fair_2022_llm,dirichlet,age_of_topic,724,Computer science,0.27169940143674026,0.047729284758832,50
+trec_fair_2022_llm,dirichlet,age_of_topic,726,Computing,0.23745427441144054,0.05798775124452539,49
+trec_fair_2022_llm,dirichlet,age_of_topic,765,Cricket,0.26499023357359347,0.07579612573679775,50
+trec_fair_2022_llm,dirichlet,age_of_topic,770,Crime and Criminal Biography,0.19381135441979447,0.06519793245479191,50
+trec_fair_2022_llm,dirichlet,age_of_topic,785,Cycling,0.24815865040086027,0.08228156694478861,50
+trec_fair_2022_llm,dirichlet,age_of_topic,805,Dams,0.24943438574231125,0.06240020530876237,50
+trec_fair_2022_llm,dirichlet,age_of_topic,893,Engineering,0.2198250331803926,0.06455962254591456,48
+trec_fair_2022_llm,dirichlet,age_of_topic,956,Film/American cinema task force,0.2534431299989101,0.07465019937900315,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1055,Former countries,0.2534768122551585,0.04890874629042577,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1102,Geography,0.29788863312697333,0.0758359601402625,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1225,Human rights,0.203093272984022,0.04001345104512778,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1319,Insects,0.3108516175454301,0.09778574578568813,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1343,Islam,0.23111425720215734,0.07099028486923889,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1368,Japan,0.22931561628321465,0.06276460624844571,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1371,Japan/Biography task force,0.2491637881338885,0.07974329067818937,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1412,Jewish history,0.21972397535462002,0.05933219331972035,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1457,Languages,0.2933852027328975,0.05532164934227231,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1509,Literature,0.23109179587314263,0.06133679884122186,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1565,Medicine,0.2322457619811326,0.0705252530512268,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1625,Middle Ages,0.24219295035537092,0.07759732497756915,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1630,Military history,0.2185136897903381,0.06376872585244309,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1656,Military history/Maritime warfare task force,0.2141446854148411,0.052080753795968986,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1715,Motorsport,0.22574108610402374,0.0632092096631465,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1773,Netherlands,0.19972048416599783,0.0657366185365653,50
+trec_fair_2022_llm,dirichlet,age_of_topic,1970,Photography,0.22667365890002203,0.07176100156680733,50
+trec_fair_2022_llm,dirichlet,age_of_topic,2006,Politics,0.22340894140600345,0.07215133167347032,50
+trec_fair_2022_llm,dirichlet,age_of_topic,2213,Skiing and Snowboarding,0.2514774420694315,0.07578646597471814,48
+trec_fair_2022_llm,dirichlet,age_of_topic,2272,Southeast Asia,0.23342203782338902,0.06303546930360665,50
+trec_fair_2022_llm,dirichlet,age_of_topic,2365,Television,0.2437711754931755,0.0705887802683645,50
+trec_fair_2022_llm,dirichlet,age_of_topic,2429,Tennis,0.2264139732578408,0.07503959515318093,50
+trec_fair_2022_llm,dirichlet,age_of_topic,2465,Trains,0.21062385182037446,0.06871629112470369,50
+trec_fair_2022_llm,dirichlet,age_of_topic,2741,Video games,0.24960541218451038,0.05649106559616394,50
+trec_fair_2022_llm,tfidf,age_of_topic,84,Agriculture,0.23811310538258795,0.07789527519870998,50
+trec_fair_2022_llm,tfidf,age_of_topic,111,Amphibians and Reptiles,0.3398656458978606,0.11177418313054276,49
+trec_fair_2022_llm,tfidf,age_of_topic,265,Astronomy,0.2606074765447312,0.07668543496256863,49
+trec_fair_2022_llm,tfidf,age_of_topic,323,Aviation,0.25476086782540763,0.07748655161779518,50
+trec_fair_2022_llm,tfidf,age_of_topic,396,Biography/WikiProject Actors and Filmmakers,0.28183334798642024,0.09732652918266574,50
+trec_fair_2022_llm,tfidf,age_of_topic,397,Biography/WikiProject Musicians,0.26877929149247276,0.08483302370906487,49
+trec_fair_2022_llm,tfidf,age_of_topic,403,Biography/science and academia work group,0.2868430237365812,0.0782198484985156,50
+trec_fair_2022_llm,tfidf,age_of_topic,409,Birds,0.2909741259532271,0.10278833212712775,50
+trec_fair_2022_llm,tfidf,age_of_topic,426,Books,0.227573654251294,0.06154442856394994,49
+trec_fair_2022_llm,tfidf,age_of_topic,475,Business,0.24708237849837134,0.060657739115993536,48
+trec_fair_2022_llm,tfidf,age_of_topic,594,Chemicals,0.3327723264770172,0.07903313883847507,48
+trec_fair_2022_llm,tfidf,age_of_topic,620,Christianity,0.23641653642687635,0.07488140719863154,50
+trec_fair_2022_llm,tfidf,age_of_topic,666,Cities,0.2890384836263158,0.0898360761299292,50
+trec_fair_2022_llm,tfidf,age_of_topic,677,Classical music,0.2662589273426776,0.08106696974099123,49
+trec_fair_2022_llm,tfidf,age_of_topic,724,Computer science,0.271467351239796,0.057127076647678486,50
+trec_fair_2022_llm,tfidf,age_of_topic,726,Computing,0.26323405329774346,0.057182986797504186,49
+trec_fair_2022_llm,tfidf,age_of_topic,765,Cricket,0.30187516910887524,0.0996759861653377,50
+trec_fair_2022_llm,tfidf,age_of_topic,770,Crime and Criminal Biography,0.2198038765138785,0.0684037530317946,50
+trec_fair_2022_llm,tfidf,age_of_topic,785,Cycling,0.26439829072374366,0.11301902969866795,50
+trec_fair_2022_llm,tfidf,age_of_topic,805,Dams,0.2846761192904186,0.06458466234933745,50
+trec_fair_2022_llm,tfidf,age_of_topic,893,Engineering,0.22908818312902635,0.05685092430802496,48
+trec_fair_2022_llm,tfidf,age_of_topic,956,Film/American cinema task force,0.30335546774635364,0.10057216398588074,50
+trec_fair_2022_llm,tfidf,age_of_topic,1055,Former countries,0.24903365028091248,0.07902594606874143,50
+trec_fair_2022_llm,tfidf,age_of_topic,1102,Geography,0.33988722060754945,0.09066430727091802,50
+trec_fair_2022_llm,tfidf,age_of_topic,1225,Human rights,0.21818827809603192,0.04521111293297699,50
+trec_fair_2022_llm,tfidf,age_of_topic,1319,Insects,0.34919978445862876,0.09353347599475616,50
+trec_fair_2022_llm,tfidf,age_of_topic,1343,Islam,0.215109645968724,0.056569746387953146,50
+trec_fair_2022_llm,tfidf,age_of_topic,1368,Japan,0.2246948837984903,0.06081617153153715,50
+trec_fair_2022_llm,tfidf,age_of_topic,1371,Japan/Biography task force,0.2956777005451617,0.09019131611871879,50
+trec_fair_2022_llm,tfidf,age_of_topic,1412,Jewish history,0.20923396378636397,0.07813631420000641,50
+trec_fair_2022_llm,tfidf,age_of_topic,1457,Languages,0.25772403353977696,0.07058060541430045,50
+trec_fair_2022_llm,tfidf,age_of_topic,1509,Literature,0.23046854208421463,0.07342565213325558,50
+trec_fair_2022_llm,tfidf,age_of_topic,1565,Medicine,0.22597099538364668,0.08148290212795203,50
+trec_fair_2022_llm,tfidf,age_of_topic,1625,Middle Ages,0.2464245351672215,0.08542049476042717,50
+trec_fair_2022_llm,tfidf,age_of_topic,1630,Military history,0.2510575960845105,0.08315589427767685,50
+trec_fair_2022_llm,tfidf,age_of_topic,1656,Military history/Maritime warfare task force,0.25977779751094454,0.07537998311361084,50
+trec_fair_2022_llm,tfidf,age_of_topic,1715,Motorsport,0.24867272245021166,0.06646154477936053,50
+trec_fair_2022_llm,tfidf,age_of_topic,1773,Netherlands,0.28675245587223214,0.1150298422717722,50
+trec_fair_2022_llm,tfidf,age_of_topic,1970,Photography,0.24380287247097407,0.07517340225799585,50
+trec_fair_2022_llm,tfidf,age_of_topic,2006,Politics,0.24882418361737182,0.08093761815615812,50
+trec_fair_2022_llm,tfidf,age_of_topic,2213,Skiing and Snowboarding,0.28884301538443585,0.11393549414699629,48
+trec_fair_2022_llm,tfidf,age_of_topic,2272,Southeast Asia,0.3022571898120791,0.08099128748833519,50
+trec_fair_2022_llm,tfidf,age_of_topic,2365,Television,0.2435286878944336,0.07546786343692753,50
+trec_fair_2022_llm,tfidf,age_of_topic,2429,Tennis,0.2879657118913103,0.10532600981016857,50
+trec_fair_2022_llm,tfidf,age_of_topic,2465,Trains,0.22793141858058596,0.08304037936876099,50
+trec_fair_2022_llm,tfidf,age_of_topic,2741,Video games,0.29504870206203637,0.06913247545785788,50
+trec_fair_2022_llm,bm25,alphabetical,84,Agriculture,0.11764748635303118,0.03519055670419586,50
+trec_fair_2022_llm,bm25,alphabetical,111,Amphibians and Reptiles,0.12539014687818897,0.04667064631414348,49
+trec_fair_2022_llm,bm25,alphabetical,265,Astronomy,0.14954707191855618,0.06255561716844815,49
+trec_fair_2022_llm,bm25,alphabetical,323,Aviation,0.1487949784887699,0.06691370295457486,50
+trec_fair_2022_llm,bm25,alphabetical,396,Biography/WikiProject Actors and Filmmakers,0.14590662558639392,0.06054585769712199,50
+trec_fair_2022_llm,bm25,alphabetical,397,Biography/WikiProject Musicians,0.14062489706020795,0.06830677804935628,49
+trec_fair_2022_llm,bm25,alphabetical,403,Biography/science and academia work group,0.14175270597595166,0.0474398841491781,50
+trec_fair_2022_llm,bm25,alphabetical,409,Birds,0.11935821098535879,0.04482391886159219,50
+trec_fair_2022_llm,bm25,alphabetical,426,Books,0.1602288912949908,0.05407218100266475,49
+trec_fair_2022_llm,bm25,alphabetical,475,Business,0.14802868472446842,0.044080292505560385,48
+trec_fair_2022_llm,bm25,alphabetical,594,Chemicals,0.13061550147268,0.04202289183229051,48
+trec_fair_2022_llm,bm25,alphabetical,620,Christianity,0.14153514842530043,0.06035812516759648,50
+trec_fair_2022_llm,bm25,alphabetical,666,Cities,0.17589362608951423,0.08743922010041442,50
+trec_fair_2022_llm,bm25,alphabetical,677,Classical music,0.14635549433304254,0.03834312289875081,49
+trec_fair_2022_llm,bm25,alphabetical,724,Computer science,0.14204547076279386,0.045995225653866635,50
+trec_fair_2022_llm,bm25,alphabetical,726,Computing,0.12909892226137962,0.04894384933133263,49
+trec_fair_2022_llm,bm25,alphabetical,765,Cricket,0.1558828348636028,0.07461762371151971,50
+trec_fair_2022_llm,bm25,alphabetical,770,Crime and Criminal Biography,0.13559074912545285,0.04983310237741611,50
+trec_fair_2022_llm,bm25,alphabetical,785,Cycling,0.14879432304562468,0.0731610323366576,50
+trec_fair_2022_llm,bm25,alphabetical,805,Dams,0.11849362790681309,0.042112589248477945,50
+trec_fair_2022_llm,bm25,alphabetical,893,Engineering,0.12773724086871593,0.035042997158919315,48
+trec_fair_2022_llm,bm25,alphabetical,956,Film/American cinema task force,0.17427368933862206,0.06338560103456425,50
+trec_fair_2022_llm,bm25,alphabetical,1055,Former countries,0.15688123582554717,0.06263999260505396,50
+trec_fair_2022_llm,bm25,alphabetical,1102,Geography,0.14791351290032975,0.07555495957843374,50
+trec_fair_2022_llm,bm25,alphabetical,1225,Human rights,0.1756777474724385,0.06400334287131573,50
+trec_fair_2022_llm,bm25,alphabetical,1319,Insects,0.1391440067546002,0.04916060422770831,50
+trec_fair_2022_llm,bm25,alphabetical,1343,Islam,0.11467335818500717,0.041468055704036846,50
+trec_fair_2022_llm,bm25,alphabetical,1368,Japan,0.15479548799582188,0.04257657333635606,50
+trec_fair_2022_llm,bm25,alphabetical,1371,Japan/Biography task force,0.1930866416517873,0.06118554063103365,50
+trec_fair_2022_llm,bm25,alphabetical,1412,Jewish history,0.11622232309622574,0.03442553149504589,50
+trec_fair_2022_llm,bm25,alphabetical,1457,Languages,0.12099542512533226,0.05038829221918225,50
+trec_fair_2022_llm,bm25,alphabetical,1509,Literature,0.12934756144656473,0.046180679640093245,50
+trec_fair_2022_llm,bm25,alphabetical,1565,Medicine,0.13053254906724926,0.05860464182994329,50
+trec_fair_2022_llm,bm25,alphabetical,1625,Middle Ages,0.1251466382388895,0.03909893215256297,50
+trec_fair_2022_llm,bm25,alphabetical,1630,Military history,0.16882103617016575,0.07400233442518775,50
+trec_fair_2022_llm,bm25,alphabetical,1656,Military history/Maritime warfare task force,0.16153767148051293,0.07345366527006554,50
+trec_fair_2022_llm,bm25,alphabetical,1715,Motorsport,0.16666047069359918,0.08553039117936213,50
+trec_fair_2022_llm,bm25,alphabetical,1773,Netherlands,0.13418246662127026,0.04227267014238445,50
+trec_fair_2022_llm,bm25,alphabetical,1970,Photography,0.10691422046310196,0.03193004190124744,50
+trec_fair_2022_llm,bm25,alphabetical,2006,Politics,0.1733748439234986,0.06559250940404648,50
+trec_fair_2022_llm,bm25,alphabetical,2213,Skiing and Snowboarding,0.1461305461821035,0.075431326088871,48
+trec_fair_2022_llm,bm25,alphabetical,2272,Southeast Asia,0.14116464074391014,0.04401132041461983,50
+trec_fair_2022_llm,bm25,alphabetical,2365,Television,0.1355053811449597,0.06283811294014945,50
+trec_fair_2022_llm,bm25,alphabetical,2429,Tennis,0.1923329558475032,0.12015325134612807,50
+trec_fair_2022_llm,bm25,alphabetical,2465,Trains,0.12825269626696528,0.04192777704159013,50
+trec_fair_2022_llm,bm25,alphabetical,2741,Video games,0.1383001515868455,0.043793324225513026,50
+trec_fair_2022_llm,dirichlet,alphabetical,84,Agriculture,0.1212063677498601,0.03844938128865934,50
+trec_fair_2022_llm,dirichlet,alphabetical,111,Amphibians and Reptiles,0.09993119379756693,0.03496408472626242,49
+trec_fair_2022_llm,dirichlet,alphabetical,265,Astronomy,0.12702521222746624,0.0535272064524444,49
+trec_fair_2022_llm,dirichlet,alphabetical,323,Aviation,0.14179507504027414,0.046821671784037705,50
+trec_fair_2022_llm,dirichlet,alphabetical,396,Biography/WikiProject Actors and Filmmakers,0.1356191427536288,0.037205072772522906,50
+trec_fair_2022_llm,dirichlet,alphabetical,397,Biography/WikiProject Musicians,0.15991072446982096,0.0624866409033321,49
+trec_fair_2022_llm,dirichlet,alphabetical,403,Biography/science and academia work group,0.1407428889251106,0.05645353551138524,50
+trec_fair_2022_llm,dirichlet,alphabetical,409,Birds,0.1439830129135742,0.11434819022377127,50
+trec_fair_2022_llm,dirichlet,alphabetical,426,Books,0.13774101001200986,0.0329428922775032,49
+trec_fair_2022_llm,dirichlet,alphabetical,475,Business,0.13712420028221173,0.04384129603991719,48
+trec_fair_2022_llm,dirichlet,alphabetical,594,Chemicals,0.12775914304890496,0.03807221963424428,48
+trec_fair_2022_llm,dirichlet,alphabetical,620,Christianity,0.1466123806459709,0.05225228905335988,50
+trec_fair_2022_llm,dirichlet,alphabetical,666,Cities,0.17083735461180027,0.04642565702588484,50
+trec_fair_2022_llm,dirichlet,alphabetical,677,Classical music,0.14706069881133,0.038592912443677796,49
+trec_fair_2022_llm,dirichlet,alphabetical,724,Computer science,0.1397970078795012,0.052663469617010926,50
+trec_fair_2022_llm,dirichlet,alphabetical,726,Computing,0.13311692601164296,0.05934696425620252,49
+trec_fair_2022_llm,dirichlet,alphabetical,765,Cricket,0.13276207044803007,0.04403522746105968,50
+trec_fair_2022_llm,dirichlet,alphabetical,770,Crime and Criminal Biography,0.132811577742007,0.05344574054093032,50
+trec_fair_2022_llm,dirichlet,alphabetical,785,Cycling,0.12957471272860505,0.05023228867479493,50
+trec_fair_2022_llm,dirichlet,alphabetical,805,Dams,0.12015134155523093,0.0618328673735125,50
+trec_fair_2022_llm,dirichlet,alphabetical,893,Engineering,0.12864301950489235,0.03915650786661322,48
+trec_fair_2022_llm,dirichlet,alphabetical,956,Film/American cinema task force,0.15317542709431226,0.05054084061667606,50
+trec_fair_2022_llm,dirichlet,alphabetical,1055,Former countries,0.14406265041638353,0.0426909484814341,50
+trec_fair_2022_llm,dirichlet,alphabetical,1102,Geography,0.14203726612562634,0.06774906291885593,50
+trec_fair_2022_llm,dirichlet,alphabetical,1225,Human rights,0.20597692261799083,0.06892389379539099,50
+trec_fair_2022_llm,dirichlet,alphabetical,1319,Insects,0.11412666494185122,0.04259530906446986,50
+trec_fair_2022_llm,dirichlet,alphabetical,1343,Islam,0.12630535619756456,0.03765416312018273,50
+trec_fair_2022_llm,dirichlet,alphabetical,1368,Japan,0.16229813759301184,0.04699412372542001,50
+trec_fair_2022_llm,dirichlet,alphabetical,1371,Japan/Biography task force,0.17992937304553508,0.04605700633648307,50
+trec_fair_2022_llm,dirichlet,alphabetical,1412,Jewish history,0.16099081281791225,0.057519363741334144,50
+trec_fair_2022_llm,dirichlet,alphabetical,1457,Languages,0.1344911688265928,0.058689886335844564,50
+trec_fair_2022_llm,dirichlet,alphabetical,1509,Literature,0.12856057394839807,0.02927534606056954,50
+trec_fair_2022_llm,dirichlet,alphabetical,1565,Medicine,0.12022642331649722,0.054645026178016975,50
+trec_fair_2022_llm,dirichlet,alphabetical,1625,Middle Ages,0.12236342775555299,0.0364495765400494,50
+trec_fair_2022_llm,dirichlet,alphabetical,1630,Military history,0.15158843869058175,0.040963922851294444,50
+trec_fair_2022_llm,dirichlet,alphabetical,1656,Military history/Maritime warfare task force,0.13912479168535685,0.053401077510910326,50
+trec_fair_2022_llm,dirichlet,alphabetical,1715,Motorsport,0.14297662146411338,0.06516008124607439,50
+trec_fair_2022_llm,dirichlet,alphabetical,1773,Netherlands,0.1358477070903013,0.03727212818361177,50
+trec_fair_2022_llm,dirichlet,alphabetical,1970,Photography,0.10352159156871626,0.023636442370263962,50
+trec_fair_2022_llm,dirichlet,alphabetical,2006,Politics,0.18293612631120484,0.06174024592314618,50
+trec_fair_2022_llm,dirichlet,alphabetical,2213,Skiing and Snowboarding,0.12229874885925,0.04634121805474464,48
+trec_fair_2022_llm,dirichlet,alphabetical,2272,Southeast Asia,0.10791719713825003,0.0339094183859927,50
+trec_fair_2022_llm,dirichlet,alphabetical,2365,Television,0.14601912088140354,0.04425219853307203,50
+trec_fair_2022_llm,dirichlet,alphabetical,2429,Tennis,0.1283113893901037,0.05640127732810477,50
+trec_fair_2022_llm,dirichlet,alphabetical,2465,Trains,0.1431711270439589,0.05290941859124924,50
+trec_fair_2022_llm,dirichlet,alphabetical,2741,Video games,0.14570037120795937,0.038053918556562934,50
+trec_fair_2022_llm,tfidf,alphabetical,84,Agriculture,0.11694590943198112,0.03579719253505649,50
+trec_fair_2022_llm,tfidf,alphabetical,111,Amphibians and Reptiles,0.12572285475461895,0.047189538710269444,49
+trec_fair_2022_llm,tfidf,alphabetical,265,Astronomy,0.14950915608546106,0.06290183832783783,49
+trec_fair_2022_llm,tfidf,alphabetical,323,Aviation,0.1485299018527552,0.06663483553535941,50
+trec_fair_2022_llm,tfidf,alphabetical,396,Biography/WikiProject Actors and Filmmakers,0.1461339385441379,0.06056411511888517,50
+trec_fair_2022_llm,tfidf,alphabetical,397,Biography/WikiProject Musicians,0.1408050794392705,0.0686396875321144,49
+trec_fair_2022_llm,tfidf,alphabetical,403,Biography/science and academia work group,0.14173607121306142,0.048412243971849435,50
+trec_fair_2022_llm,tfidf,alphabetical,409,Birds,0.1191178668618436,0.04451190916980103,50
+trec_fair_2022_llm,tfidf,alphabetical,426,Books,0.16040118090520078,0.05482405248374931,49
+trec_fair_2022_llm,tfidf,alphabetical,475,Business,0.14878398300843632,0.04446854597267258,48
+trec_fair_2022_llm,tfidf,alphabetical,594,Chemicals,0.13151254798874193,0.041371254729116465,48
+trec_fair_2022_llm,tfidf,alphabetical,620,Christianity,0.14247474805895036,0.06071198441604561,50
+trec_fair_2022_llm,tfidf,alphabetical,666,Cities,0.17617264878028838,0.08948771784853315,50
+trec_fair_2022_llm,tfidf,alphabetical,677,Classical music,0.14663513152491436,0.038423615703267515,49
+trec_fair_2022_llm,tfidf,alphabetical,724,Computer science,0.14200282730706476,0.046489463649742165,50
+trec_fair_2022_llm,tfidf,alphabetical,726,Computing,0.12893462669069378,0.048821137652869495,49
+trec_fair_2022_llm,tfidf,alphabetical,765,Cricket,0.15682845458864889,0.07558193296174062,50
+trec_fair_2022_llm,tfidf,alphabetical,770,Crime and Criminal Biography,0.13445589994227,0.05046802696909735,50
+trec_fair_2022_llm,tfidf,alphabetical,785,Cycling,0.14849352206661962,0.07247276067962971,50
+trec_fair_2022_llm,tfidf,alphabetical,805,Dams,0.11867667562584955,0.04233941890880029,50
+trec_fair_2022_llm,tfidf,alphabetical,893,Engineering,0.12744098490431063,0.035576760063995884,48
+trec_fair_2022_llm,tfidf,alphabetical,956,Film/American cinema task force,0.17264173366125504,0.06382921754914829,50
+trec_fair_2022_llm,tfidf,alphabetical,1055,Former countries,0.1527265528438278,0.05848351552852062,50
+trec_fair_2022_llm,tfidf,alphabetical,1102,Geography,0.1478917747484536,0.07551735725312048,50
+trec_fair_2022_llm,tfidf,alphabetical,1225,Human rights,0.17587493370582488,0.06453134641397192,50
+trec_fair_2022_llm,tfidf,alphabetical,1319,Insects,0.13902692869616423,0.04905771131059889,50
+trec_fair_2022_llm,tfidf,alphabetical,1343,Islam,0.11596672906924459,0.041074215379447665,50
+trec_fair_2022_llm,tfidf,alphabetical,1368,Japan,0.15340736084740556,0.04148236832065955,50
+trec_fair_2022_llm,tfidf,alphabetical,1371,Japan/Biography task force,0.19281135384657969,0.0611460095484851,50
+trec_fair_2022_llm,tfidf,alphabetical,1412,Jewish history,0.11587532118297682,0.03363208421297733,50
+trec_fair_2022_llm,tfidf,alphabetical,1457,Languages,0.12104879720728885,0.04966105877426573,50
+trec_fair_2022_llm,tfidf,alphabetical,1509,Literature,0.1300453858040777,0.04629387924821168,50
+trec_fair_2022_llm,tfidf,alphabetical,1565,Medicine,0.13041566014260733,0.05863583895290549,50
+trec_fair_2022_llm,tfidf,alphabetical,1625,Middle Ages,0.12495904297578107,0.0395416121339645,50
+trec_fair_2022_llm,tfidf,alphabetical,1630,Military history,0.16874973948731925,0.0746393893016018,50
+trec_fair_2022_llm,tfidf,alphabetical,1656,Military history/Maritime warfare task force,0.16112712665944184,0.07412911086163389,50
+trec_fair_2022_llm,tfidf,alphabetical,1715,Motorsport,0.1662046007486745,0.0857040933500379,50
+trec_fair_2022_llm,tfidf,alphabetical,1773,Netherlands,0.13368949909740957,0.041795484619306544,50
+trec_fair_2022_llm,tfidf,alphabetical,1970,Photography,0.10755305160484749,0.03197865035019652,50
+trec_fair_2022_llm,tfidf,alphabetical,2006,Politics,0.17269166383616905,0.06523350191612784,50
+trec_fair_2022_llm,tfidf,alphabetical,2213,Skiing and Snowboarding,0.14615122925436855,0.07528200237535314,48
+trec_fair_2022_llm,tfidf,alphabetical,2272,Southeast Asia,0.1395365479049463,0.04297430491132679,50
+trec_fair_2022_llm,tfidf,alphabetical,2365,Television,0.1350118273979477,0.06254594732620604,50
+trec_fair_2022_llm,tfidf,alphabetical,2429,Tennis,0.19237624842627615,0.1201074262428911,50
+trec_fair_2022_llm,tfidf,alphabetical,2465,Trains,0.1279446845569628,0.04177980996330425,50
+trec_fair_2022_llm,tfidf,alphabetical,2741,Video games,0.13880291338730807,0.043862331000265126,50
+trec_fair_2022_llm,bm25,popularity,84,Agriculture,0.27815053433678705,0.07408776979526628,50
+trec_fair_2022_llm,bm25,popularity,111,Amphibians and Reptiles,0.3333195763232899,0.1333364155215069,49
+trec_fair_2022_llm,bm25,popularity,265,Astronomy,0.29760655462502494,0.10112566978487637,49
+trec_fair_2022_llm,bm25,popularity,323,Aviation,0.2663145658525781,0.09484583437658715,50
+trec_fair_2022_llm,bm25,popularity,396,Biography/WikiProject Actors and Filmmakers,0.21336209434389145,0.09171757908114621,50
+trec_fair_2022_llm,bm25,popularity,397,Biography/WikiProject Musicians,0.2794487272809845,0.08599223854634967,49
+trec_fair_2022_llm,bm25,popularity,403,Biography/science and academia work group,0.39155806007997385,0.08940050108460917,50
+trec_fair_2022_llm,bm25,popularity,409,Birds,0.2821652182665088,0.12358648645314997,50
+trec_fair_2022_llm,bm25,popularity,426,Books,0.30150470554048847,0.0993790592295934,49
+trec_fair_2022_llm,bm25,popularity,475,Business,0.21830970179422593,0.07493862047786005,48
+trec_fair_2022_llm,bm25,popularity,594,Chemicals,0.20365655967777332,0.0853371963559338,48
+trec_fair_2022_llm,bm25,popularity,620,Christianity,0.3183603801959856,0.09234205799998374,50
+trec_fair_2022_llm,bm25,popularity,666,Cities,0.2792738004413338,0.09279624123760093,50
+trec_fair_2022_llm,bm25,popularity,677,Classical music,0.3590192621673042,0.08813624645403385,49
+trec_fair_2022_llm,bm25,popularity,724,Computer science,0.22356994523818252,0.08740845008708113,50
+trec_fair_2022_llm,bm25,popularity,726,Computing,0.20581396102495106,0.06111168175909448,49
+trec_fair_2022_llm,bm25,popularity,765,Cricket,0.32990241625712863,0.11392043249411897,50
+trec_fair_2022_llm,bm25,popularity,770,Crime and Criminal Biography,0.21127531106628464,0.08197953545115347,50
+trec_fair_2022_llm,bm25,popularity,785,Cycling,0.3669726233952623,0.11591477031588554,50
+trec_fair_2022_llm,bm25,popularity,805,Dams,0.34627160875319957,0.07648146452919861,50
+trec_fair_2022_llm,bm25,popularity,893,Engineering,0.29977135471112476,0.08766754631640877,48
+trec_fair_2022_llm,bm25,popularity,956,Film/American cinema task force,0.24656536667443354,0.09328795649196205,50
+trec_fair_2022_llm,bm25,popularity,1055,Former countries,0.2747020546568801,0.10135334828759954,50
+trec_fair_2022_llm,bm25,popularity,1102,Geography,0.2802968667422721,0.06702198750089812,50
+trec_fair_2022_llm,bm25,popularity,1225,Human rights,0.18160400013047082,0.0742901573493325,50
+trec_fair_2022_llm,bm25,popularity,1319,Insects,0.34267757477856037,0.12069778709412389,50
+trec_fair_2022_llm,bm25,popularity,1343,Islam,0.28811896396021835,0.06814048287942089,50
+trec_fair_2022_llm,bm25,popularity,1368,Japan,0.3490110035168354,0.09995709760295166,50
+trec_fair_2022_llm,bm25,popularity,1371,Japan/Biography task force,0.4113150831144048,0.09936149962981812,50
+trec_fair_2022_llm,bm25,popularity,1412,Jewish history,0.35507429367163196,0.10230480296745284,50
+trec_fair_2022_llm,bm25,popularity,1457,Languages,0.19886873603615712,0.08109590006068387,50
+trec_fair_2022_llm,bm25,popularity,1509,Literature,0.2971583074581686,0.07644861616305455,50
+trec_fair_2022_llm,bm25,popularity,1565,Medicine,0.2596327881247763,0.07698776812250581,50
+trec_fair_2022_llm,bm25,popularity,1625,Middle Ages,0.3449806743120237,0.10636138609156272,50
+trec_fair_2022_llm,bm25,popularity,1630,Military history,0.2349703102220395,0.08713700653405407,50
+trec_fair_2022_llm,bm25,popularity,1656,Military history/Maritime warfare task force,0.26960312303765127,0.08548627447176704,50
+trec_fair_2022_llm,bm25,popularity,1715,Motorsport,0.3271904993362362,0.08588048605195174,50
+trec_fair_2022_llm,bm25,popularity,1773,Netherlands,0.4046054344730927,0.11975186361467442,50
+trec_fair_2022_llm,bm25,popularity,1970,Photography,0.3051688504742111,0.09121596531988302,50
+trec_fair_2022_llm,bm25,popularity,2006,Politics,0.26521972113580766,0.10247800853572032,50
+trec_fair_2022_llm,bm25,popularity,2213,Skiing and Snowboarding,0.22343275101662416,0.08540809754182399,48
+trec_fair_2022_llm,bm25,popularity,2272,Southeast Asia,0.2900650656138438,0.09254671504137324,50
+trec_fair_2022_llm,bm25,popularity,2365,Television,0.21746585024583176,0.062273908849900805,50
+trec_fair_2022_llm,bm25,popularity,2429,Tennis,0.38159693724057214,0.10415908907523207,50
+trec_fair_2022_llm,bm25,popularity,2465,Trains,0.3589460769076911,0.07774610381030655,50
+trec_fair_2022_llm,bm25,popularity,2741,Video games,0.21153977584066053,0.09233042146805079,50
+trec_fair_2022_llm,dirichlet,popularity,84,Agriculture,0.12877467916254456,0.0492633858314624,50
+trec_fair_2022_llm,dirichlet,popularity,111,Amphibians and Reptiles,0.12540901229047363,0.05840095419212176,49
+trec_fair_2022_llm,dirichlet,popularity,265,Astronomy,0.166928146721875,0.0771682310407154,49
+trec_fair_2022_llm,dirichlet,popularity,323,Aviation,0.18488683589425528,0.08347633183575931,50
+trec_fair_2022_llm,dirichlet,popularity,396,Biography/WikiProject Actors and Filmmakers,0.231916363563109,0.09707448674691635,50
+trec_fair_2022_llm,dirichlet,popularity,397,Biography/WikiProject Musicians,0.206903147130577,0.07161456000724956,49
+trec_fair_2022_llm,dirichlet,popularity,403,Biography/science and academia work group,0.15830224679470034,0.06414861923165052,50
+trec_fair_2022_llm,dirichlet,popularity,409,Birds,0.1640696837524532,0.06528152998926862,50
+trec_fair_2022_llm,dirichlet,popularity,426,Books,0.18253305457049848,0.07671946276514174,49
+trec_fair_2022_llm,dirichlet,popularity,475,Business,0.18029583126495052,0.05941834081824397,48
+trec_fair_2022_llm,dirichlet,popularity,594,Chemicals,0.1646387774474933,0.08580369514054169,48
+trec_fair_2022_llm,dirichlet,popularity,620,Christianity,0.14924775711710786,0.07104183819982732,50
+trec_fair_2022_llm,dirichlet,popularity,666,Cities,0.21100972893145242,0.08413258954436946,50
+trec_fair_2022_llm,dirichlet,popularity,677,Classical music,0.19379639834260767,0.06717137432128552,49
+trec_fair_2022_llm,dirichlet,popularity,724,Computer science,0.20010854271345196,0.07489916220242596,50
+trec_fair_2022_llm,dirichlet,popularity,726,Computing,0.2015155986742492,0.07806308871778639,49
+trec_fair_2022_llm,dirichlet,popularity,765,Cricket,0.1686217341047167,0.06883445511668802,50
+trec_fair_2022_llm,dirichlet,popularity,770,Crime and Criminal Biography,0.17681883887231287,0.07175017170284394,50
+trec_fair_2022_llm,dirichlet,popularity,785,Cycling,0.15156958707359103,0.06471843798194159,50
+trec_fair_2022_llm,dirichlet,popularity,805,Dams,0.12156001480508745,0.03951256597246169,50
+trec_fair_2022_llm,dirichlet,popularity,893,Engineering,0.18367366112671543,0.07403212639720767,48
+trec_fair_2022_llm,dirichlet,popularity,956,Film/American cinema task force,0.3272214023472625,0.13301494120744872,50
+trec_fair_2022_llm,dirichlet,popularity,1055,Former countries,0.21936198890742836,0.08462295027343851,50
+trec_fair_2022_llm,dirichlet,popularity,1102,Geography,0.13705018250841694,0.049277479999215786,50
+trec_fair_2022_llm,dirichlet,popularity,1225,Human rights,0.22614383199330917,0.09416086746002521,50
+trec_fair_2022_llm,dirichlet,popularity,1319,Insects,0.12390179053636757,0.06576491670121234,50
+trec_fair_2022_llm,dirichlet,popularity,1343,Islam,0.17058170068553724,0.07856535487171465,50
+trec_fair_2022_llm,dirichlet,popularity,1368,Japan,0.15398472512574396,0.049211000836893545,50
+trec_fair_2022_llm,dirichlet,popularity,1371,Japan/Biography task force,0.1814486035413931,0.050376643573938694,50
+trec_fair_2022_llm,dirichlet,popularity,1412,Jewish history,0.14728039896923398,0.05739274300100801,50
+trec_fair_2022_llm,dirichlet,popularity,1457,Languages,0.2503023864380328,0.07735921410735164,50
+trec_fair_2022_llm,dirichlet,popularity,1509,Literature,0.14665304128864087,0.04167144618187321,50
+trec_fair_2022_llm,dirichlet,popularity,1565,Medicine,0.1699310052183706,0.050017865897053135,50
+trec_fair_2022_llm,dirichlet,popularity,1625,Middle Ages,0.1587472668235802,0.07117070247241038,50
+trec_fair_2022_llm,dirichlet,popularity,1630,Military history,0.1947738873350221,0.09305612155204412,50
+trec_fair_2022_llm,dirichlet,popularity,1656,Military history/Maritime warfare task force,0.15922992165236433,0.08034725713362828,50
+trec_fair_2022_llm,dirichlet,popularity,1715,Motorsport,0.17434360805973356,0.07134653700871581,50
+trec_fair_2022_llm,dirichlet,popularity,1773,Netherlands,0.16106666012847132,0.0552553557092238,50
+trec_fair_2022_llm,dirichlet,popularity,1970,Photography,0.18116673187766058,0.05270718451564473,50
+trec_fair_2022_llm,dirichlet,popularity,2006,Politics,0.17399289607597587,0.07710223932326359,50
+trec_fair_2022_llm,dirichlet,popularity,2213,Skiing and Snowboarding,0.15885636453657878,0.058369901439812084,48
+trec_fair_2022_llm,dirichlet,popularity,2272,Southeast Asia,0.1310850432133357,0.0677310489838024,50
+trec_fair_2022_llm,dirichlet,popularity,2365,Television,0.2847821034247145,0.10064975402197024,50
+trec_fair_2022_llm,dirichlet,popularity,2429,Tennis,0.17680024406020575,0.08259929104380191,50
+trec_fair_2022_llm,dirichlet,popularity,2465,Trains,0.15387712103840184,0.049911602956913326,50
+trec_fair_2022_llm,dirichlet,popularity,2741,Video games,0.3472543211394211,0.0938380560805354,50
+trec_fair_2022_llm,tfidf,popularity,84,Agriculture,0.27837603131694344,0.0742376953086105,50
+trec_fair_2022_llm,tfidf,popularity,111,Amphibians and Reptiles,0.33348207972957095,0.13340325345794085,49
+trec_fair_2022_llm,tfidf,popularity,265,Astronomy,0.2975263447390335,0.10068404363496951,49
+trec_fair_2022_llm,tfidf,popularity,323,Aviation,0.2665534276165618,0.09501089308325188,50
+trec_fair_2022_llm,tfidf,popularity,396,Biography/WikiProject Actors and Filmmakers,0.21371994976877276,0.09140706963898819,50
+trec_fair_2022_llm,tfidf,popularity,397,Biography/WikiProject Musicians,0.27913844872918037,0.08580509170539032,49
+trec_fair_2022_llm,tfidf,popularity,403,Biography/science and academia work group,0.3916240011368609,0.08926069465357174,50
+trec_fair_2022_llm,tfidf,popularity,409,Birds,0.28191208287862235,0.12344934402102035,50
+trec_fair_2022_llm,tfidf,popularity,426,Books,0.29982213533936486,0.10067916741725186,49
+trec_fair_2022_llm,tfidf,popularity,475,Business,0.21859361176930392,0.07575764905416237,48
+trec_fair_2022_llm,tfidf,popularity,594,Chemicals,0.2041849529589499,0.08581135852286395,48
+trec_fair_2022_llm,tfidf,popularity,620,Christianity,0.3180621534211975,0.09209354052662967,50
+trec_fair_2022_llm,tfidf,popularity,666,Cities,0.27939104408860593,0.09217650508811125,50
+trec_fair_2022_llm,tfidf,popularity,677,Classical music,0.3592971068599628,0.08785795583943563,49
+trec_fair_2022_llm,tfidf,popularity,724,Computer science,0.2235917726451555,0.08714391126014384,50
+trec_fair_2022_llm,tfidf,popularity,726,Computing,0.20592519187450162,0.06183546475850534,49
+trec_fair_2022_llm,tfidf,popularity,765,Cricket,0.32891611256131364,0.11342782055405731,50
+trec_fair_2022_llm,tfidf,popularity,770,Crime and Criminal Biography,0.21078984404649131,0.08317238023050119,50
+trec_fair_2022_llm,tfidf,popularity,785,Cycling,0.3673849635969811,0.11592588105344864,50
+trec_fair_2022_llm,tfidf,popularity,805,Dams,0.34721888824523106,0.07598245667379055,50
+trec_fair_2022_llm,tfidf,popularity,893,Engineering,0.29983750699774075,0.08772985114292454,48
+trec_fair_2022_llm,tfidf,popularity,956,Film/American cinema task force,0.24985620004774098,0.0979832545086184,50
+trec_fair_2022_llm,tfidf,popularity,1055,Former countries,0.27460293095171373,0.10279591029300275,50
+trec_fair_2022_llm,tfidf,popularity,1102,Geography,0.2802165488199281,0.06698344503235258,50
+trec_fair_2022_llm,tfidf,popularity,1225,Human rights,0.18146136497557425,0.07477939937728811,50
+trec_fair_2022_llm,tfidf,popularity,1319,Insects,0.3421209024701617,0.12066395888633859,50
+trec_fair_2022_llm,tfidf,popularity,1343,Islam,0.2886096527495351,0.06924671258390296,50
+trec_fair_2022_llm,tfidf,popularity,1368,Japan,0.3510126076786327,0.09906613111490734,50
+trec_fair_2022_llm,tfidf,popularity,1371,Japan/Biography task force,0.4110392192057851,0.09974186867543848,50
+trec_fair_2022_llm,tfidf,popularity,1412,Jewish history,0.3568099313507367,0.10160548329089501,50
+trec_fair_2022_llm,tfidf,popularity,1457,Languages,0.19976001543652347,0.08167842195655874,50
+trec_fair_2022_llm,tfidf,popularity,1509,Literature,0.29857347629139713,0.07732357157313187,50
+trec_fair_2022_llm,tfidf,popularity,1565,Medicine,0.2600532722033319,0.07724176485485104,50
+trec_fair_2022_llm,tfidf,popularity,1625,Middle Ages,0.34429706583402103,0.1051740870711044,50
+trec_fair_2022_llm,tfidf,popularity,1630,Military history,0.23595057790222768,0.08691621611111346,50
+trec_fair_2022_llm,tfidf,popularity,1656,Military history/Maritime warfare task force,0.2710199516781688,0.08646250753192894,50
+trec_fair_2022_llm,tfidf,popularity,1715,Motorsport,0.32761962663880667,0.08608871241748665,50
+trec_fair_2022_llm,tfidf,popularity,1773,Netherlands,0.4055128618879403,0.11902959767479308,50
+trec_fair_2022_llm,tfidf,popularity,1970,Photography,0.30562559931809996,0.09032606823694422,50
+trec_fair_2022_llm,tfidf,popularity,2006,Politics,0.26538046583575403,0.10174655913506317,50
+trec_fair_2022_llm,tfidf,popularity,2213,Skiing and Snowboarding,0.2242740867264533,0.08582676191349996,48
+trec_fair_2022_llm,tfidf,popularity,2272,Southeast Asia,0.2872441633922988,0.08893534409445364,50
+trec_fair_2022_llm,tfidf,popularity,2365,Television,0.21705940028615037,0.06205288296217687,50
+trec_fair_2022_llm,tfidf,popularity,2429,Tennis,0.3813734089216824,0.10538554127728668,50
+trec_fair_2022_llm,tfidf,popularity,2465,Trains,0.3597349772672744,0.07861469525424884,50
+trec_fair_2022_llm,tfidf,popularity,2741,Video games,0.2115705058523194,0.0929577561733218,50
