@@ -213,7 +213,6 @@ trec_fair_2022_llm,dirichlet,popularity,1343,Islam,0.1705817006855372,0.07856535
 trec_fair_2022_llm,dirichlet,alphabetical,666,Cities,0.1708373546118002,0.0464256570258848,50
 trec_fair_2022_llm,tfidf,alphabetical,956,Film/American cinema task force,0.172641733661255,0.0638292175491482,50
 trec_fair_2022_llm,tfidf,alphabetical,2006,Politics,0.172691663836169,0.0652335019161278,50
-trec_fair_2021_llm,dirichlet,geo_location,10,Buddhism,0.1726932992808639,0.0388017732401103,50
 trec_fair_2022_llm,bm25,alphabetical,2006,Politics,0.1733748439234986,0.0655925094040464,50
 trec_fair_2022_llm,bm25,age_of_article,397,Biography/WikiProject Musicians,0.1736324870431492,0.0552371825291182,49
 trec_fair_2022_llm,dirichlet,popularity,2006,Politics,0.1739928960759758,0.0771022393232635,50
@@ -233,7 +232,6 @@ trec_fair_2022_llm,dirichlet,popularity,2429,Tennis,0.1768002440602057,0.0825992
 trec_fair_2022_llm,dirichlet,popularity,770,Crime and Criminal Biography,0.1768188388723128,0.0717501717028439,50
 trec_fair_2022_llm,bm25,age_of_article,726,Computing,0.1769983338864044,0.0545321124604873,49
 trec_fair_2022_llm,tfidf,age_of_article,956,Film/American cinema task force,0.177150262883232,0.0726357120922145,50
-trec_fair_2021_llm,dirichlet,geo_location,43,Philately,0.1794942837692783,0.0403808285011162,50
 trec_fair_2022_llm,dirichlet,alphabetical,1371,Japan/Biography task force,0.179929373045535,0.046057006336483,50
 trec_fair_2022_llm,dirichlet,popularity,475,Business,0.1802958312649505,0.0594183408182439,48
 trec_fair_2022_llm,dirichlet,popularity,1970,Photography,0.1811667318776605,0.0527071845156447,50
@@ -264,7 +262,6 @@ trec_fair_2022_llm,tfidf,age_of_article,785,Cycling,0.1896471864848707,0.0922993
 trec_fair_2022_llm,bm25,alphabetical,2429,Tennis,0.1923329558475032,0.120153251346128,50
 trec_fair_2022_llm,tfidf,alphabetical,2429,Tennis,0.1923762484262761,0.1201074262428911,50
 trec_fair_2022_llm,tfidf,alphabetical,1371,Japan/Biography task force,0.1928113538465796,0.0611460095484851,50
-trec_fair_2021_llm,dirichlet,geo_location,27,Indigenous peoples of the Americas,0.192999940248614,0.039624323998269,50
 trec_fair_2022_llm,dirichlet,age_of_article,2213,Skiing and Snowboarding,0.1930050569332301,0.0679085807895113,48
 trec_fair_2022_llm,bm25,alphabetical,1371,Japan/Biography task force,0.1930866416517873,0.0611855406310336,50
 trec_fair_2022_llm,dirichlet,popularity,677,Classical music,0.1937963983426076,0.0671713743212855,49
@@ -275,7 +272,6 @@ trec_fair_2022_llm,bm25,age_of_article,765,Cricket,0.1959440940757197,0.08317745
 trec_fair_2022_llm,dirichlet,age_of_article,2429,Tennis,0.1966458215705164,0.069217662812136,50
 trec_fair_2022_llm,tfidf,age_of_article,765,Cricket,0.196691215617323,0.0823257824581838,50
 trec_fair_2022_llm,dirichlet,age_of_article,785,Cycling,0.1967468689974767,0.0674086731539016,50
-trec_fair_2021_llm,dirichlet,geo_location,55,Volcanoes,0.198485764212602,0.0580904440085926,50
 trec_fair_2022_llm,bm25,popularity,1457,Languages,0.1988687360361571,0.0810959000606838,50
 trec_fair_2022_llm,dirichlet,age_of_topic,1773,Netherlands,0.1997204841659978,0.0657366185365653,50
 trec_fair_2022_llm,tfidf,popularity,1457,Languages,0.1997600154365234,0.0816784219565587,50
@@ -300,7 +296,6 @@ trec_fair_2022_llm,dirichlet,alphabetical,1225,Human rights,0.2059769226179908,0
 trec_fair_2022_llm,dirichlet,age_of_article,1625,Middle Ages,0.206652855083245,0.074013530650792,50
 trec_fair_2022_llm,tfidf,age_of_article,1371,Japan/Biography task force,0.206666373842338,0.0694323403749777,50
 trec_fair_2022_llm,dirichlet,popularity,397,Biography/WikiProject Musicians,0.206903147130577,0.0716145600072495,49
-trec_fair_2021_llm,dirichlet,geo_location,13,Chess,0.2071732678336753,0.0458447996783589,50
 trec_fair_2022_llm,dirichlet,age_of_topic,677,Classical music,0.2077445731738195,0.0669659438289094,49
 trec_fair_2022_llm,bm25,age_of_article,1371,Japan/Biography task force,0.2078425413291948,0.070186145868597,50
 trec_fair_2022_llm,dirichlet,age_of_article,396,Biography/WikiProject Actors and Filmmakers,0.2079811528439818,0.0714199243976019,50
@@ -310,7 +305,6 @@ trec_fair_2022_llm,bm25,age_of_topic,1412,Jewish history,0.2104323306145189,0.07
 trec_fair_2022_llm,dirichlet,age_of_topic,2465,Trains,0.2106238518203744,0.0687162911247036,50
 trec_fair_2022_llm,tfidf,popularity,770,Crime and Criminal Biography,0.2107898440464913,0.0831723802305011,50
 trec_fair_2022_llm,dirichlet,popularity,666,Cities,0.2110097289314524,0.0841325895443694,50
-trec_fair_2021_llm,dirichlet,geo_location,47,Punk music,0.2112591170992719,0.0482654652892517,50
 trec_fair_2022_llm,bm25,popularity,770,Crime and Criminal Biography,0.2112753110662846,0.0819795354511534,50
 trec_fair_2022_llm,bm25,popularity,2741,Video games,0.2115397758406605,0.0923304214680507,50
 trec_fair_2022_llm,tfidf,popularity,2741,Video games,0.2115705058523194,0.0929577561733218,50
@@ -318,7 +312,6 @@ trec_fair_2022_llm,bm25,age_of_article,111,Amphibians and Reptiles,0.21173543457
 trec_fair_2022_llm,tfidf,age_of_article,111,Amphibians and Reptiles,0.2119708699710398,0.1273315619711009,49
 trec_fair_2022_llm,dirichlet,age_of_article,426,Books,0.2132468990052684,0.0641345170534803,49
 trec_fair_2022_llm,bm25,popularity,396,Biography/WikiProject Actors and Filmmakers,0.2133620943438914,0.0917175790811462,50
-trec_fair_2021_llm,dirichlet,geo_location,29,Jewish history,0.2135003365221957,0.0634255815860517,50
 trec_fair_2022_llm,tfidf,popularity,396,Biography/WikiProject Actors and Filmmakers,0.2137199497687727,0.0914070696389881,50
 trec_fair_2022_llm,dirichlet,age_of_topic,1656,Military history/Maritime warfare task force,0.2141446854148411,0.0520807537959689,50
 trec_fair_2022_llm,dirichlet,age_of_topic,265,Astronomy,0.2145591189736541,0.0665253831087167,49
@@ -340,9 +333,7 @@ trec_fair_2022_llm,dirichlet,age_of_topic,1412,Jewish history,0.21972397535462,0
 trec_fair_2022_llm,tfidf,age_of_topic,770,Crime and Criminal Biography,0.2198038765138785,0.0684037530317946,50
 trec_fair_2022_llm,dirichlet,age_of_topic,893,Engineering,0.2198250331803926,0.0645596225459145,48
 trec_fair_2022_llm,dirichlet,age_of_article,2006,Politics,0.2205832137083695,0.0799779711268363,50
-trec_fair_2021_llm,dirichlet,geo_location,24,Former countries,0.2211130707584144,0.0474104227898486,50
 trec_fair_2022_llm,dirichlet,age_of_article,265,Astronomy,0.2220761192166681,0.070673866350068,49
-trec_fair_2021_llm,dirichlet,geo_location,52,Southeast Asia,0.2221653305892125,0.0442278761370686,50
 trec_fair_2022_llm,dirichlet,age_of_topic,2006,Politics,0.2234089414060034,0.0721513316734703,50
 trec_fair_2022_llm,bm25,popularity,2213,Skiing and Snowboarding,0.2234327510166241,0.0854080975418239,48
 trec_fair_2022_llm,bm25,popularity,724,Computer science,0.2235699452381825,0.0874084500870811,50
@@ -358,9 +349,7 @@ trec_fair_2022_llm,dirichlet,age_of_article,1773,Netherlands,0.2258966505420327,
 trec_fair_2022_llm,tfidf,age_of_topic,1565,Medicine,0.2259709953836466,0.081482902127952,50
 trec_fair_2022_llm,dirichlet,popularity,1225,Human rights,0.2261438319933091,0.0941608674600252,50
 trec_fair_2022_llm,dirichlet,age_of_topic,2429,Tennis,0.2264139732578408,0.0750395951531809,50
-trec_fair_2021_llm,dirichlet,geo_location,36,Medicine,0.2264585702356573,0.0430224646142746,50
 trec_fair_2022_llm,dirichlet,age_of_topic,1970,Photography,0.226673658900022,0.0717610015668073,50
-trec_fair_2021_llm,dirichlet,geo_location,19,Dance/WikiProject Ballet,0.2267095433658477,0.0407472514198786,50
 trec_fair_2022_llm,bm25,age_of_article,2429,Tennis,0.2267416914864867,0.0992703869247488,50
 trec_fair_2022_llm,bm25,age_of_topic,426,Books,0.2270198538199918,0.062062627025757,49
 trec_fair_2022_llm,bm25,age_of_topic,2465,Trains,0.2271018758696688,0.0835230083409937,50
@@ -372,7 +361,6 @@ trec_fair_2022_llm,tfidf,age_of_topic,2465,Trains,0.2279314185805859,0.083040379
 trec_fair_2022_llm,bm25,age_of_topic,893,Engineering,0.2286570965612465,0.0572727210677121,48
 trec_fair_2022_llm,tfidf,age_of_topic,893,Engineering,0.2290881831290263,0.0568509243080249,48
 trec_fair_2022_llm,dirichlet,age_of_topic,1368,Japan,0.2293156162832146,0.0627646062484457,50
-trec_fair_2021_llm,dirichlet,geo_location,20,Disability,0.229354730500416,0.0482220536386571,49
 trec_fair_2022_llm,bm25,age_of_topic,1509,Literature,0.2299795658567477,0.0734498033278364,50
 trec_fair_2022_llm,tfidf,age_of_topic,1509,Literature,0.2304685420842146,0.0734256521332555,50
 trec_fair_2022_llm,dirichlet,age_of_topic,1509,Literature,0.2310917958731426,0.0613367988412218,50
@@ -383,8 +371,6 @@ trec_fair_2022_llm,dirichlet,age_of_topic,1565,Medicine,0.2322457619811326,0.070
 trec_fair_2022_llm,dirichlet,age_of_article,1225,Human rights,0.2327050288745101,0.0818877259784366,50
 trec_fair_2022_llm,dirichlet,age_of_topic,403,Biography/science and academia work group,0.2328703169903777,0.0649603850863186,50
 trec_fair_2022_llm,dirichlet,age_of_topic,2272,Southeast Asia,0.233422037823389,0.0630354693036066,50
-trec_fair_2021_llm,dirichlet,geo_location,51,Skiing and Snowboarding,0.2345673384801978,0.0601139756242609,48
-trec_fair_2021_llm,dirichlet,geo_location,34,Linguistics,0.2347721366080279,0.0602902175977923,49
 trec_fair_2022_llm,bm25,popularity,1630,Military history,0.2349703102220395,0.087137006534054,50
 trec_fair_2022_llm,dirichlet,age_of_topic,397,Biography/WikiProject Musicians,0.23511833234111,0.0733358412200567,49
 trec_fair_2022_llm,bm25,age_of_topic,620,Christianity,0.2353922424553776,0.0747551805270087,50
@@ -392,37 +378,26 @@ trec_fair_2022_llm,dirichlet,age_of_topic,323,Aviation,0.2356165476950271,0.0541
 trec_fair_2022_llm,tfidf,popularity,1630,Military history,0.2359505779022276,0.0869162161111134,50
 trec_fair_2022_llm,tfidf,age_of_topic,620,Christianity,0.2364165364268763,0.0748814071986315,50
 trec_fair_2022_llm,dirichlet,age_of_topic,726,Computing,0.2374542744114405,0.0579877512445253,49
-trec_fair_2021_llm,dirichlet,geo_location,45,Poetry,0.2380579938047109,0.0497192937924956,50
 trec_fair_2022_llm,tfidf,age_of_topic,84,Agriculture,0.2381131053825879,0.0778952751987099,50
 trec_fair_2022_llm,dirichlet,age_of_article,893,Engineering,0.2381384765189901,0.0742574399600831,48
-trec_fair_2021_llm,dirichlet,geo_location,31,Law,0.2387124092451754,0.0372146468770598,50
 trec_fair_2022_llm,bm25,age_of_topic,84,Agriculture,0.2388678860171555,0.0786538195976925,50
 trec_fair_2022_llm,dirichlet,age_of_article,1055,Former countries,0.2393328395010873,0.05730566585995,50
-trec_fair_2021_llm,dirichlet,geo_location,32,LGBT studies/LGBT Person task force,0.2397495425012354,0.0399023776777302,50
 trec_fair_2022_llm,dirichlet,age_of_topic,666,Cities,0.2407148754692399,0.0720451151210053,50
 trec_fair_2022_llm,dirichlet,age_of_article,2365,Television,0.2410427358596026,0.073502862631923,50
 trec_fair_2022_llm,dirichlet,age_of_topic,475,Business,0.241546647980566,0.0718129290799888,48
 trec_fair_2022_llm,dirichlet,age_of_topic,1625,Middle Ages,0.2421929503553709,0.0775973249775691,50
 trec_fair_2022_llm,dirichlet,age_of_article,409,Birds,0.2424043701310995,0.0917062942082527,50
-trec_fair_2021_llm,dirichlet,geo_location,46,Politics,0.2428356495591988,0.0499411812399564,50
 trec_fair_2022_llm,tfidf,age_of_topic,2365,Television,0.2435286878944336,0.0754678634369275,50
-trec_fair_2021_llm,dirichlet,geo_location,37,Middle Ages,0.2435801071979775,0.0580812238561387,50
-trec_fair_2021_llm,dirichlet,geo_location,42,Organized Labour,0.2436891982827542,0.0356936666618963,49
 trec_fair_2022_llm,dirichlet,age_of_topic,2365,Television,0.2437711754931755,0.0705887802683645,50
 trec_fair_2022_llm,tfidf,age_of_topic,1970,Photography,0.243802872470974,0.0751734022579958,50
-trec_fair_2021_llm,dirichlet,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.2438912242785002,0.0426052055219435,47
 trec_fair_2022_llm,bm25,age_of_topic,1970,Photography,0.2439500172010082,0.0752174003707328,50
 trec_fair_2022_llm,bm25,age_of_topic,2365,Television,0.2439808630076757,0.075724891327428,50
-trec_fair_2021_llm,dirichlet,geo_location,30,Journalism,0.2450346290363188,0.047747324565665,50
 trec_fair_2022_llm,dirichlet,age_of_topic,396,Biography/WikiProject Actors and Filmmakers,0.2455599692636405,0.073850340116266,50
 trec_fair_2022_llm,bm25,age_of_topic,1625,Middle Ages,0.2456965781769914,0.0858607406495488,50
-trec_fair_2021_llm,dirichlet,geo_location,16,Computer science,0.2457062619377806,0.0534738236408592,50
 trec_fair_2022_llm,tfidf,age_of_topic,1625,Middle Ages,0.2464245351672215,0.0854204947604271,50
 trec_fair_2022_llm,bm25,popularity,956,Film/American cinema task force,0.2465653666744335,0.093287956491962,50
-trec_fair_2021_llm,dirichlet,geo_location,54,Television,0.2467913971334374,0.0487755159277404,50
 trec_fair_2022_llm,bm25,age_of_topic,475,Business,0.2470037431218797,0.0611409401589133,48
 trec_fair_2022_llm,tfidf,age_of_topic,475,Business,0.2470823784983713,0.0606577391159935,48
-trec_fair_2021_llm,dirichlet,geo_location,21,Engineering,0.2471288741152809,0.0416728657800547,48
 trec_fair_2022_llm,dirichlet,age_of_topic,785,Cycling,0.2481586504008602,0.0822815669447886,50
 trec_fair_2022_llm,bm25,age_of_topic,2006,Politics,0.2485687381053786,0.0795663728657323,50
 trec_fair_2022_llm,bm25,age_of_topic,1715,Motorsport,0.2485874566727077,0.0660812903440144,50
@@ -434,33 +409,19 @@ trec_fair_2022_llm,dirichlet,age_of_topic,805,Dams,0.2494343857423112,0.06240020
 trec_fair_2022_llm,dirichlet,age_of_topic,2741,Video games,0.2496054121845103,0.0564910655961639,50
 trec_fair_2022_llm,tfidf,popularity,956,Film/American cinema task force,0.2498562000477409,0.0979832545086184,50
 trec_fair_2022_llm,dirichlet,popularity,1457,Languages,0.2503023864380328,0.0773592141073516,50
-trec_fair_2021_llm,dirichlet,geo_location,33,Libraries,0.2505445868091899,0.0522777944850867,50
 trec_fair_2022_llm,dirichlet,age_of_article,765,Cricket,0.2507431400682394,0.0756825398380923,50
 trec_fair_2022_llm,tfidf,age_of_topic,1630,Military history,0.2510575960845105,0.0831558942776768,50
 trec_fair_2022_llm,bm25,age_of_topic,1630,Military history,0.2511568489301993,0.081668131838602,50
 trec_fair_2022_llm,dirichlet,age_of_topic,2213,Skiing and Snowboarding,0.2514774420694315,0.0757864659747181,48
 trec_fair_2022_llm,bm25,age_of_topic,1055,Former countries,0.2516787066578033,0.079833180112183,50
-trec_fair_2021_llm,bm25,geo_location,27,Indigenous peoples of the Americas,0.2521847153304806,0.0447527244883976,50
-trec_fair_2021_llm,tfidf,geo_location,27,Indigenous peoples of the Americas,0.2526690883920011,0.0449415786194299,50
-trec_fair_2021_llm,dirichlet,geo_location,26,Human rights,0.2532755588042475,0.0338603697166326,50
-trec_fair_2021_llm,dirichlet,geo_location,4,Aviation,0.2533153277984283,0.0530888185744336,50
 trec_fair_2022_llm,dirichlet,age_of_topic,956,Film/American cinema task force,0.2534431299989101,0.0746501993790031,50
 trec_fair_2022_llm,dirichlet,age_of_topic,1055,Former countries,0.2534768122551585,0.0489087462904257,50
 trec_fair_2022_llm,bm25,age_of_topic,323,Aviation,0.254341428772362,0.0773853771387185,50
-trec_fair_2021_llm,dirichlet,geo_location,15,Composers,0.2544132119041957,0.0608842636029782,50
 trec_fair_2022_llm,tfidf,age_of_topic,323,Aviation,0.2547608678254076,0.0774865516177951,50
-trec_fair_2021_llm,dirichlet,geo_location,40,Netherlands,0.2551143808782714,0.0503766103144109,50
 trec_fair_2022_llm,dirichlet,age_of_article,726,Computing,0.2554579882265312,0.0853176935799613,49
-trec_fair_2021_llm,dirichlet,geo_location,28,Japan/Biography task force,0.2561080496836908,0.0341582848140157,50
-trec_fair_2021_llm,dirichlet,geo_location,50,Running,0.2568902537980435,0.0460830632772216,49
 trec_fair_2022_llm,bm25,age_of_topic,1457,Languages,0.2573072263048213,0.0702705067848062,50
 trec_fair_2022_llm,tfidf,age_of_topic,1457,Languages,0.2577240335397769,0.0705806054143004,50
-trec_fair_2021_llm,dirichlet,geo_location,5,Baseball,0.2581926842514749,0.059548201493934,50
-trec_fair_2021_llm,dirichlet,geo_location,14,Children's literature,0.2585801025116169,0.0417258449052279,50
 trec_fair_2022_llm,dirichlet,age_of_article,2741,Video games,0.2586097770867739,0.0726641236140612,50
-trec_fair_2021_llm,dirichlet,geo_location,35,Literature,0.2586544060380058,0.0365922255948858,50
-trec_fair_2021_llm,dirichlet,geo_location,25,Gymnastics,0.2591688475397348,0.0483432522929294,49
-trec_fair_2021_llm,dirichlet,geo_location,18,Cycling,0.2593206081977255,0.0684785294428318,50
 trec_fair_2022_llm,bm25,popularity,1565,Medicine,0.2596327881247763,0.0769877681225058,50
 trec_fair_2022_llm,bm25,age_of_topic,1656,Military history/Maritime warfare task force,0.2596354121680223,0.0742978504127436,50
 trec_fair_2022_llm,tfidf,age_of_topic,1656,Military history/Maritime warfare task force,0.2597777975109445,0.0753799831136108,50
@@ -468,46 +429,30 @@ trec_fair_2022_llm,tfidf,popularity,1565,Medicine,0.2600532722033319,0.077241764
 trec_fair_2022_llm,bm25,age_of_topic,265,Astronomy,0.2602444448419417,0.0774364844124169,49
 trec_fair_2022_llm,tfidf,age_of_topic,265,Astronomy,0.2606074765447312,0.0766854349625686,49
 trec_fair_2022_llm,dirichlet,age_of_article,724,Computer science,0.2607125298317872,0.0816141725186236,50
-trec_fair_2021_llm,dirichlet,geo_location,22,Fencing,0.2611272741455134,0.0604388664418979,50
-trec_fair_2021_llm,dirichlet,geo_location,49,Rowing,0.2617513847739566,0.0513886216278078,50
-trec_fair_2021_llm,dirichlet,geo_location,41,Olympics,0.2626653859462253,0.0633769235719363,50
 trec_fair_2022_llm,bm25,age_of_topic,785,Cycling,0.2631111497113981,0.114171459647073,50
 trec_fair_2022_llm,tfidf,age_of_topic,726,Computing,0.2632340532977434,0.0571829867975041,49
 trec_fair_2022_llm,bm25,age_of_topic,726,Computing,0.2635078636413565,0.05738877847239,49
 trec_fair_2022_llm,dirichlet,age_of_article,666,Cities,0.2642821396585488,0.0756292888038777,50
 trec_fair_2022_llm,tfidf,age_of_topic,785,Cycling,0.2643982907237436,0.1130190296986679,50
-trec_fair_2021_llm,dirichlet,geo_location,1,Agriculture,0.2646912913614134,0.0469873897636538,50
 trec_fair_2022_llm,dirichlet,age_of_topic,765,Cricket,0.2649902335735934,0.0757961257367977,50
 trec_fair_2022_llm,bm25,popularity,2006,Politics,0.2652197211358076,0.1024780085357203,50
 trec_fair_2022_llm,tfidf,popularity,2006,Politics,0.265380465835754,0.1017465591350631,50
 trec_fair_2022_llm,bm25,age_of_topic,677,Classical music,0.2658205788628818,0.0822447029454245,49
-trec_fair_2021_llm,bm25,geo_location,43,Philately,0.2660745761608277,0.0494037693026524,50
-trec_fair_2021_llm,dirichlet,geo_location,9,Boxing,0.2661593559783827,0.0449638089913509,50
 trec_fair_2022_llm,dirichlet,age_of_topic,84,Agriculture,0.2661794534854793,0.0718453899412371,50
 trec_fair_2022_llm,tfidf,age_of_topic,677,Classical music,0.2662589273426776,0.0810669697409912,49
 trec_fair_2022_llm,bm25,popularity,323,Aviation,0.2663145658525781,0.0948458343765871,50
-trec_fair_2021_llm,dirichlet,geo_location,11,Business,0.266401690843153,0.0443916352623047,48
-trec_fair_2021_llm,tfidf,geo_location,43,Philately,0.2664806894531676,0.0497427897057269,50
 trec_fair_2022_llm,tfidf,popularity,323,Aviation,0.2665534276165618,0.0950108930832518,50
 trec_fair_2022_llm,bm25,age_of_topic,397,Biography/WikiProject Musicians,0.2681304286623786,0.0846429076666569,49
 trec_fair_2022_llm,tfidf,age_of_topic,397,Biography/WikiProject Musicians,0.2687792914924727,0.0848330237090648,49
 trec_fair_2022_llm,bm25,popularity,1656,Military history/Maritime warfare task force,0.2696031230376512,0.085486274471767,50
 trec_fair_2022_llm,tfidf,popularity,1656,Military history/Maritime warfare task force,0.2710199516781688,0.0864625075319289,50
-trec_fair_2021_llm,dirichlet,geo_location,6,Biography/science and academia work group,0.2710395304151962,0.0474765930780383,50
-trec_fair_2021_llm,dirichlet,geo_location,48,Referees,0.2712004279540429,0.0625789342557032,50
 trec_fair_2022_llm,tfidf,age_of_topic,724,Computer science,0.271467351239796,0.0571270766476784,50
 trec_fair_2022_llm,dirichlet,age_of_topic,724,Computer science,0.2716994014367402,0.047729284758832,50
 trec_fair_2022_llm,bm25,age_of_topic,724,Computer science,0.27178323928957,0.0566925090283875,50
 trec_fair_2022_llm,dirichlet,age_of_article,1457,Languages,0.2719399210085549,0.0633920960894165,50
-trec_fair_2021_llm,dirichlet,geo_location,57,Nigeria,0.2724843081909672,0.057411958997027,50
-trec_fair_2021_llm,dirichlet,geo_location,44,Photography,0.2725970880078542,0.0587365050692159,50
-trec_fair_2021_llm,dirichlet,geo_location,2,Architecture,0.2735842387294352,0.0488394465612742,50
 trec_fair_2022_llm,tfidf,popularity,1055,Former countries,0.2746029309517137,0.1027959102930027,50
 trec_fair_2022_llm,bm25,popularity,1055,Former countries,0.2747020546568801,0.1013533482875995,50
-trec_fair_2021_llm,dirichlet,geo_location,38,Mixed martial arts,0.276077473307047,0.0536474100327385,50
-trec_fair_2021_llm,dirichlet,geo_location,17,Cricket,0.2777742379223042,0.0595697682809316,50
 trec_fair_2022_llm,bm25,popularity,84,Agriculture,0.278150534336787,0.0740877697952662,50
-trec_fair_2021_llm,dirichlet,geo_location,3,Athletics,0.2782915482558906,0.0586624709189198,50
 trec_fair_2022_llm,tfidf,popularity,84,Agriculture,0.2783760313169434,0.0742376953086105,50
 trec_fair_2022_llm,tfidf,popularity,397,Biography/WikiProject Musicians,0.2791384487291803,0.0858050917053903,49
 trec_fair_2022_llm,bm25,popularity,666,Cities,0.2792738004413338,0.0927962412376009,50
@@ -515,24 +460,20 @@ trec_fair_2022_llm,tfidf,popularity,666,Cities,0.2793910440886059,0.092176505088
 trec_fair_2022_llm,bm25,popularity,397,Biography/WikiProject Musicians,0.2794487272809845,0.0859922385463496,49
 trec_fair_2022_llm,tfidf,popularity,1102,Geography,0.2802165488199281,0.0669834450323525,50
 trec_fair_2022_llm,bm25,popularity,1102,Geography,0.2802968667422721,0.0670219875008981,50
-trec_fair_2021_llm,dirichlet,geo_location,53,Swimming,0.280332256617562,0.0592373104802876,49
 trec_fair_2022_llm,dirichlet,age_of_topic,111,Amphibians and Reptiles,0.2809896567476292,0.1054102351685394,49
 trec_fair_2022_llm,bm25,age_of_topic,396,Biography/WikiProject Actors and Filmmakers,0.2817573149942983,0.0967316218615719,50
 trec_fair_2022_llm,tfidf,age_of_topic,396,Biography/WikiProject Actors and Filmmakers,0.2818333479864202,0.0973265291826657,50
 trec_fair_2022_llm,tfidf,popularity,409,Birds,0.2819120828786223,0.1234493440210203,50
 trec_fair_2022_llm,bm25,popularity,409,Birds,0.2821652182665088,0.1235864864531499,50
 trec_fair_2022_llm,dirichlet,age_of_topic,409,Birds,0.2825036373089797,0.1092247616296767,50
-trec_fair_2021_llm,dirichlet,geo_location,56,Women,0.2839842966436223,0.0479632373697353,49
 trec_fair_2022_llm,bm25,age_of_topic,805,Dams,0.2843445679219004,0.0640588435694029,50
 trec_fair_2022_llm,tfidf,age_of_topic,805,Dams,0.2846761192904186,0.0645846623493374,50
 trec_fair_2022_llm,dirichlet,popularity,2365,Television,0.2847821034247145,0.1006497540219702,50
 trec_fair_2022_llm,bm25,age_of_topic,1773,Netherlands,0.2851427665672151,0.1140968058774082,50
-trec_fair_2021_llm,dirichlet,geo_location,7,Biography/sports and games work group,0.2860656781453448,0.0516882563823357,50
 trec_fair_2022_llm,tfidf,age_of_topic,1773,Netherlands,0.2867524558722321,0.1150298422717722,50
 trec_fair_2022_llm,tfidf,age_of_topic,403,Biography/science and academia work group,0.2868430237365812,0.0782198484985156,50
 trec_fair_2022_llm,bm25,age_of_topic,403,Biography/science and academia work group,0.2869738174802346,0.0783580857068828,50
 trec_fair_2022_llm,tfidf,popularity,2272,Southeast Asia,0.2872441633922988,0.0889353440944536,50
-trec_fair_2021_llm,dirichlet,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.2874069880645291,0.0596991012681166,50
 trec_fair_2022_llm,tfidf,age_of_topic,2429,Tennis,0.2879657118913103,0.1053260098101685,50
 trec_fair_2022_llm,bm25,popularity,1343,Islam,0.2881189639602183,0.0681404828794208,50
 trec_fair_2022_llm,bm25,age_of_topic,2429,Tennis,0.2881392078817313,0.1048249217868053,50
@@ -545,29 +486,20 @@ trec_fair_2022_llm,bm25,age_of_topic,2213,Skiing and Snowboarding,0.289951195570
 trec_fair_2022_llm,bm25,popularity,2272,Southeast Asia,0.2900650656138438,0.0925467150413732,50
 trec_fair_2022_llm,bm25,age_of_topic,409,Birds,0.2905365018803684,0.1025006071150035,50
 trec_fair_2022_llm,tfidf,age_of_topic,409,Birds,0.2909741259532271,0.1027883321271277,50
-trec_fair_2021_llm,dirichlet,geo_location,39,Musical Theatre,0.2932591248261502,0.0468180682274232,50
-trec_fair_2021_llm,tfidf,geo_location,10,Buddhism,0.2933297468301596,0.0426637304236137,50
 trec_fair_2022_llm,dirichlet,age_of_topic,1457,Languages,0.2933852027328975,0.0553216493422723,50
-trec_fair_2021_llm,bm25,geo_location,10,Buddhism,0.2933959365049081,0.0421349372987776,50
 trec_fair_2022_llm,bm25,age_of_topic,2741,Video games,0.2942527707057932,0.0700383752752991,50
 trec_fair_2022_llm,tfidf,age_of_topic,2741,Video games,0.2950487020620363,0.0691324754578578,50
 trec_fair_2022_llm,tfidf,age_of_topic,1371,Japan/Biography task force,0.2956777005451617,0.0901913161187187,50
-trec_fair_2021_llm,tfidf,geo_location,55,Volcanoes,0.2958703712886717,0.0665324702005932,50
 trec_fair_2022_llm,bm25,age_of_topic,1371,Japan/Biography task force,0.2959326127308283,0.093579289210419,50
-trec_fair_2021_llm,bm25,geo_location,55,Volcanoes,0.2965071290822434,0.0662865686675315,50
 trec_fair_2022_llm,bm25,popularity,1509,Literature,0.2971583074581686,0.0764486161630545,50
-trec_fair_2021_llm,tfidf,geo_location,16,Computer science,0.2973943975356976,0.0653325041160542,50
-trec_fair_2021_llm,bm25,geo_location,16,Computer science,0.2974501359520523,0.0653021449459709,50
 trec_fair_2022_llm,tfidf,popularity,265,Astronomy,0.2975263447390335,0.1006840436349695,49
 trec_fair_2022_llm,bm25,popularity,265,Astronomy,0.2976065546250249,0.1011256697848763,49
 trec_fair_2022_llm,dirichlet,age_of_topic,1102,Geography,0.2978886331269733,0.0758359601402625,50
 trec_fair_2022_llm,tfidf,popularity,1509,Literature,0.2985734762913971,0.0773235715731318,50
-trec_fair_2021_llm,bm25,geo_location,24,Former countries,0.2993715050154309,0.0557996556375363,50
 trec_fair_2022_llm,bm25,age_of_topic,956,Film/American cinema task force,0.2994800031140447,0.0976959909048576,50
 trec_fair_2022_llm,bm25,popularity,893,Engineering,0.2997713547111247,0.0876675463164087,48
 trec_fair_2022_llm,tfidf,popularity,426,Books,0.2998221353393648,0.1006791674172518,49
 trec_fair_2022_llm,tfidf,popularity,893,Engineering,0.2998375069977407,0.0877298511429245,48
-trec_fair_2021_llm,tfidf,geo_location,24,Former countries,0.2998592075890172,0.0556443685164468,50
 trec_fair_2022_llm,bm25,popularity,426,Books,0.3015047055404884,0.0993790592295934,49
 trec_fair_2022_llm,tfidf,age_of_topic,765,Cricket,0.3018751691088752,0.0996759861653377,50
 trec_fair_2022_llm,tfidf,age_of_topic,2272,Southeast Asia,0.3022571898120791,0.0809912874883351,50
@@ -576,149 +508,46 @@ trec_fair_2022_llm,tfidf,age_of_topic,956,Film/American cinema task force,0.3033
 trec_fair_2022_llm,bm25,popularity,1970,Photography,0.3051688504742111,0.091215965319883,50
 trec_fair_2022_llm,tfidf,popularity,1970,Photography,0.3056255993180999,0.0903260682369442,50
 trec_fair_2022_llm,bm25,age_of_topic,2272,Southeast Asia,0.307248081763516,0.0837533519112073,50
-trec_fair_2021_llm,tfidf,geo_location,32,LGBT studies/LGBT Person task force,0.3083980969843669,0.0518759040083713,50
-trec_fair_2021_llm,bm25,geo_location,32,LGBT studies/LGBT Person task force,0.3084997710549121,0.0530752660444229,50
-trec_fair_2021_llm,tfidf,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.3089211984210265,0.0605254124139419,47
-trec_fair_2021_llm,bm25,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.3091712110900368,0.061011681635191,47
-trec_fair_2021_llm,bm25,geo_location,20,Disability,0.3099434879773834,0.054169692223087,49
-trec_fair_2021_llm,tfidf,geo_location,20,Disability,0.3100531687395012,0.0541486161376908,49
 trec_fair_2022_llm,dirichlet,age_of_topic,1319,Insects,0.3108516175454301,0.0977857457856881,50
-trec_fair_2021_llm,tfidf,geo_location,13,Chess,0.3109917922099093,0.0529770509444639,50
-trec_fair_2021_llm,bm25,geo_location,34,Linguistics,0.3111161884837678,0.0698754802828355,49
-trec_fair_2021_llm,tfidf,geo_location,34,Linguistics,0.3114194804319616,0.0701341189855208,49
-trec_fair_2021_llm,bm25,geo_location,13,Chess,0.3114409063441449,0.0534716348627194,50
-trec_fair_2021_llm,tfidf,geo_location,36,Medicine,0.315922683269749,0.0638020035934219,50
-trec_fair_2021_llm,bm25,geo_location,19,Dance/WikiProject Ballet,0.316003399415769,0.0555555724669629,50
-trec_fair_2021_llm,bm25,geo_location,36,Medicine,0.3160413238393209,0.0638809016763968,50
-trec_fair_2021_llm,tfidf,geo_location,19,Dance/WikiProject Ballet,0.3165499315334012,0.0554515098848734,50
 trec_fair_2022_llm,tfidf,popularity,620,Christianity,0.3180621534211975,0.0920935405266296,50
 trec_fair_2022_llm,bm25,popularity,620,Christianity,0.3183603801959856,0.0923420579999837,50
-trec_fair_2021_llm,bm25,geo_location,47,Punk music,0.3242276223332948,0.0587966472260846,50
-trec_fair_2021_llm,tfidf,geo_location,46,Politics,0.3251887766651141,0.0646520897079404,50
-trec_fair_2021_llm,tfidf,geo_location,47,Punk music,0.3254802204461866,0.0585779633455568,50
-trec_fair_2021_llm,bm25,geo_location,46,Politics,0.3257419441265925,0.0648772314943812,50
 trec_fair_2022_llm,bm25,popularity,1715,Motorsport,0.3271904993362362,0.0858804860519517,50
 trec_fair_2022_llm,dirichlet,popularity,956,Film/American cinema task force,0.3272214023472625,0.1330149412074487,50
-trec_fair_2021_llm,tfidf,geo_location,33,Libraries,0.3275038384004664,0.0698295118635586,50
 trec_fair_2022_llm,tfidf,popularity,1715,Motorsport,0.3276196266388066,0.0860887124174866,50
-trec_fair_2021_llm,bm25,geo_location,33,Libraries,0.3280736345497402,0.0701032965442091,50
-trec_fair_2021_llm,bm25,geo_location,37,Middle Ages,0.3284477546708589,0.0591827564736378,50
 trec_fair_2022_llm,tfidf,popularity,765,Cricket,0.3289161125613136,0.1134278205540573,50
-trec_fair_2021_llm,bm25,geo_location,26,Human rights,0.3289209379320032,0.0448718743521492,50
-trec_fair_2021_llm,tfidf,geo_location,26,Human rights,0.3292405795185139,0.0447546975392758,50
-trec_fair_2021_llm,tfidf,geo_location,37,Middle Ages,0.3292813694326256,0.0595542940599139,50
 trec_fair_2022_llm,bm25,popularity,765,Cricket,0.3299024162571286,0.1139204324941189,50
-trec_fair_2021_llm,bm25,geo_location,51,Skiing and Snowboarding,0.3305291211917063,0.0749393703295022,48
-trec_fair_2021_llm,tfidf,geo_location,51,Skiing and Snowboarding,0.331144023661035,0.0748688233321536,48
 trec_fair_2022_llm,bm25,age_of_topic,594,Chemicals,0.3322259725131805,0.0797549627507222,48
 trec_fair_2022_llm,tfidf,age_of_topic,594,Chemicals,0.3327723264770172,0.079033138838475,48
 trec_fair_2022_llm,bm25,popularity,111,Amphibians and Reptiles,0.3333195763232899,0.1333364155215069,49
 trec_fair_2022_llm,tfidf,popularity,111,Amphibians and Reptiles,0.3334820797295709,0.1334032534579408,49
-trec_fair_2021_llm,dirichlet,geo_location,23,Football,0.3354191968814266,0.0517606084552703,48
-trec_fair_2021_llm,bm25,geo_location,31,Law,0.3359402153162121,0.0471089109512465,50
-trec_fair_2021_llm,tfidf,geo_location,31,Law,0.3361531169686332,0.0471810310209426,50
-trec_fair_2021_llm,tfidf,geo_location,52,Southeast Asia,0.3375059032470111,0.0465303130116965,50
-trec_fair_2021_llm,bm25,geo_location,52,Southeast Asia,0.3380286416812696,0.0469314339925544,50
 trec_fair_2022_llm,bm25,age_of_topic,1102,Geography,0.3395905198492543,0.0908025843226111,50
 trec_fair_2022_llm,tfidf,age_of_topic,111,Amphibians and Reptiles,0.3398656458978606,0.1117741831305427,49
 trec_fair_2022_llm,tfidf,age_of_topic,1102,Geography,0.3398872206075494,0.090664307270918,50
 trec_fair_2022_llm,bm25,age_of_topic,111,Amphibians and Reptiles,0.3399285306512541,0.1118547469720761,49
-trec_fair_2021_llm,tfidf,geo_location,45,Poetry,0.340562040927071,0.0593908536874675,50
-trec_fair_2021_llm,bm25,geo_location,45,Poetry,0.3407633686733179,0.060196871745358,50
-trec_fair_2021_llm,bm25,geo_location,1,Agriculture,0.3416084106949764,0.0475554356477116,50
-trec_fair_2021_llm,tfidf,geo_location,1,Agriculture,0.3418276336516915,0.0477564670061527,50
-trec_fair_2021_llm,bm25,geo_location,22,Fencing,0.3418366071495329,0.07266442630112,50
 trec_fair_2022_llm,tfidf,popularity,1319,Insects,0.3421209024701617,0.1206639588863385,50
-trec_fair_2021_llm,tfidf,geo_location,22,Fencing,0.3426493147685432,0.0728130774915141,50
 trec_fair_2022_llm,bm25,popularity,1319,Insects,0.3426775747785603,0.1206977870941238,50
 trec_fair_2022_llm,tfidf,popularity,1625,Middle Ages,0.344297065834021,0.1051740870711044,50
 trec_fair_2022_llm,bm25,popularity,1625,Middle Ages,0.3449806743120237,0.1063613860915627,50
-trec_fair_2021_llm,bm25,geo_location,49,Rowing,0.3460833034434282,0.0533178068082929,50
-trec_fair_2021_llm,tfidf,geo_location,49,Rowing,0.346179235449926,0.0533373129933866,50
 trec_fair_2022_llm,bm25,popularity,805,Dams,0.3462716087531995,0.0764814645291986,50
 trec_fair_2022_llm,tfidf,popularity,805,Dams,0.347218888245231,0.0759824566737905,50
 trec_fair_2022_llm,dirichlet,popularity,2741,Video games,0.3472543211394211,0.0938380560805354,50
-trec_fair_2021_llm,bm25,geo_location,4,Aviation,0.3480219220020977,0.047985958004445,50
-trec_fair_2021_llm,tfidf,geo_location,4,Aviation,0.3480775460809466,0.0481844261232248,50
-trec_fair_2021_llm,bm25,geo_location,11,Business,0.3489201432208075,0.048524613803099,48
 trec_fair_2022_llm,bm25,popularity,1368,Japan,0.3490110035168354,0.0999570976029516,50
 trec_fair_2022_llm,bm25,age_of_topic,1319,Insects,0.3491224756063234,0.0931347202475764,50
 trec_fair_2022_llm,tfidf,age_of_topic,1319,Insects,0.3491997844586287,0.0935334759947561,50
-trec_fair_2021_llm,tfidf,geo_location,42,Organized Labour,0.3495961067053874,0.0537552697665584,49
-trec_fair_2021_llm,tfidf,geo_location,11,Business,0.3496373961478459,0.048667026091679,48
-trec_fair_2021_llm,bm25,geo_location,42,Organized Labour,0.3497114952313052,0.0542628297453819,49
-trec_fair_2021_llm,tfidf,geo_location,18,Cycling,0.350406859917738,0.0819153027328054,50
-trec_fair_2021_llm,tfidf,geo_location,40,Netherlands,0.3508008106303996,0.0433850696295949,50
-trec_fair_2021_llm,bm25,geo_location,18,Cycling,0.3508033521899283,0.0818376361660701,50
-trec_fair_2021_llm,bm25,geo_location,40,Netherlands,0.35084091490143,0.0437891461566136,50
 trec_fair_2022_llm,tfidf,popularity,1368,Japan,0.3510126076786327,0.0990661311149073,50
-trec_fair_2021_llm,bm25,geo_location,30,Journalism,0.353442355929213,0.0524536081192091,50
-trec_fair_2021_llm,tfidf,geo_location,30,Journalism,0.3542253801811871,0.0508754585599882,50
 trec_fair_2022_llm,bm25,popularity,1412,Jewish history,0.3550742936716319,0.1023048029674528,50
-trec_fair_2021_llm,bm25,geo_location,57,Nigeria,0.3566626196657542,0.0619573193026695,50
-trec_fair_2021_llm,tfidf,geo_location,38,Mixed martial arts,0.3566731708326225,0.0507583461984815,50
-trec_fair_2021_llm,bm25,geo_location,38,Mixed martial arts,0.3567223813678655,0.0500733402437109,50
 trec_fair_2022_llm,tfidf,popularity,1412,Jewish history,0.3568099313507367,0.101605483290895,50
-trec_fair_2021_llm,tfidf,geo_location,57,Nigeria,0.3575436555198915,0.0614889474147494,50
-trec_fair_2021_llm,bm25,geo_location,44,Photography,0.3581985189808895,0.0583298119163104,50
-trec_fair_2021_llm,bm25,geo_location,21,Engineering,0.3586772505205527,0.0566510410500375,48
-trec_fair_2021_llm,tfidf,geo_location,44,Photography,0.3586927939677726,0.0584924866461086,50
 trec_fair_2022_llm,bm25,popularity,2465,Trains,0.3589460769076911,0.0777461038103065,50
 trec_fair_2022_llm,bm25,popularity,677,Classical music,0.3590192621673042,0.0881362464540338,49
 trec_fair_2022_llm,tfidf,popularity,677,Classical music,0.3592971068599628,0.0878579558394356,49
-trec_fair_2021_llm,tfidf,geo_location,21,Engineering,0.359495773354094,0.0565430365246492,48
 trec_fair_2022_llm,tfidf,popularity,2465,Trains,0.3597349772672744,0.0786146952542488,50
-trec_fair_2021_llm,tfidf,geo_location,2,Architecture,0.3599843061164055,0.0468136529912036,50
-trec_fair_2021_llm,bm25,geo_location,2,Architecture,0.3601073921320571,0.0468213550548889,50
-trec_fair_2021_llm,bm25,geo_location,35,Literature,0.3605794404485629,0.0463854510458693,50
-trec_fair_2021_llm,tfidf,geo_location,35,Literature,0.3606999097003699,0.046284794306301,50
-trec_fair_2021_llm,bm25,geo_location,53,Swimming,0.3633335341727933,0.0585123290125382,49
-trec_fair_2021_llm,tfidf,geo_location,50,Running,0.3633532133909407,0.0637089843431634,49
-trec_fair_2021_llm,bm25,geo_location,50,Running,0.3637843547145143,0.0641115279175547,49
-trec_fair_2021_llm,tfidf,geo_location,54,Television,0.3638241485434214,0.0534510505469883,50
-trec_fair_2021_llm,tfidf,geo_location,53,Swimming,0.3642618913035405,0.0582366888828309,49
-trec_fair_2021_llm,bm25,geo_location,29,Jewish history,0.3643156209344429,0.0683542152092142,50
-trec_fair_2021_llm,tfidf,geo_location,29,Jewish history,0.3645520596450187,0.0683512549979675,50
-trec_fair_2021_llm,bm25,geo_location,54,Television,0.3646588247487007,0.0543645239456722,50
-trec_fair_2021_llm,bm25,geo_location,25,Gymnastics,0.3659253010723312,0.0607138831021247,49
 trec_fair_2022_llm,bm25,popularity,785,Cycling,0.3669726233952623,0.1159147703158855,50
 trec_fair_2022_llm,tfidf,popularity,785,Cycling,0.3673849635969811,0.1159258810534486,50
-trec_fair_2021_llm,tfidf,geo_location,25,Gymnastics,0.3680755820278529,0.0604226522774841,49
-trec_fair_2021_llm,tfidf,geo_location,48,Referees,0.3702079162264022,0.0598799916588319,50
-trec_fair_2021_llm,bm25,geo_location,48,Referees,0.3703888017306903,0.059893828137085,50
-trec_fair_2021_llm,bm25,geo_location,14,Children's literature,0.3712567237189577,0.0544450983398972,50
-trec_fair_2021_llm,tfidf,geo_location,15,Composers,0.372145586796476,0.0652040260041989,50
-trec_fair_2021_llm,tfidf,geo_location,14,Children's literature,0.372568099886301,0.0527719177350354,50
-trec_fair_2021_llm,bm25,geo_location,15,Composers,0.3726529167818623,0.0647757479610633,50
-trec_fair_2021_llm,bm25,geo_location,6,Biography/science and academia work group,0.3789335519061438,0.0568755224568876,50
-trec_fair_2021_llm,tfidf,geo_location,6,Biography/science and academia work group,0.3793709282500933,0.0567897428951904,50
 trec_fair_2022_llm,tfidf,popularity,2429,Tennis,0.3813734089216824,0.1053855412772866,50
 trec_fair_2022_llm,bm25,popularity,2429,Tennis,0.3815969372405721,0.104159089075232,50
-trec_fair_2021_llm,bm25,geo_location,9,Boxing,0.3834435519181995,0.0498336026573656,50
-trec_fair_2021_llm,tfidf,geo_location,9,Boxing,0.3836058476547522,0.0494984979559726,50
-trec_fair_2021_llm,tfidf,geo_location,28,Japan/Biography task force,0.3839599355433543,0.0559047892319304,50
-trec_fair_2021_llm,bm25,geo_location,28,Japan/Biography task force,0.3841482607819125,0.0555874168128503,50
-trec_fair_2021_llm,tfidf,geo_location,3,Athletics,0.3885431977660826,0.0635985698548456,50
-trec_fair_2021_llm,bm25,geo_location,3,Athletics,0.3887411924104197,0.0634446955206353,50
 trec_fair_2022_llm,bm25,popularity,403,Biography/science and academia work group,0.3915580600799738,0.0894005010846091,50
 trec_fair_2022_llm,tfidf,popularity,403,Biography/science and academia work group,0.3916240011368609,0.0892606946535717,50
-trec_fair_2021_llm,bm25,geo_location,56,Women,0.3925159906042344,0.0430406988233925,49
-trec_fair_2021_llm,tfidf,geo_location,56,Women,0.3931225945781734,0.0443158489913674,49
-trec_fair_2021_llm,tfidf,geo_location,5,Baseball,0.3937949198576974,0.0547205993660569,50
-trec_fair_2021_llm,bm25,geo_location,5,Baseball,0.3951999138534893,0.0547878096930171,50
-trec_fair_2021_llm,tfidf,geo_location,41,Olympics,0.3976180130987968,0.0596110933027373,50
-trec_fair_2021_llm,bm25,geo_location,41,Olympics,0.3987708477846184,0.0593628344928091,50
-trec_fair_2021_llm,tfidf,geo_location,17,Cricket,0.3990725414595343,0.061724515592342,50
-trec_fair_2021_llm,bm25,geo_location,7,Biography/sports and games work group,0.3993110726148703,0.0577998665587932,50
-trec_fair_2021_llm,bm25,geo_location,17,Cricket,0.399385879370419,0.0618098718874037,50
-trec_fair_2021_llm,bm25,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.3995220237695385,0.0744967874818657,50
-trec_fair_2021_llm,tfidf,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.3996012056782856,0.0741685954618504,50
-trec_fair_2021_llm,tfidf,geo_location,7,Biography/sports and games work group,0.4004637064830904,0.0577505150000213,50
 trec_fair_2022_llm,bm25,popularity,1773,Netherlands,0.4046054344730927,0.1197518636146744,50
 trec_fair_2022_llm,tfidf,popularity,1773,Netherlands,0.4055128618879403,0.119029597674793,50
-trec_fair_2021_llm,bm25,geo_location,39,Musical Theatre,0.4084700756892504,0.0635466577544362,50
-trec_fair_2021_llm,tfidf,geo_location,39,Musical Theatre,0.4084798482257348,0.0637984688934859,50
 trec_fair_2022_llm,tfidf,popularity,1371,Japan/Biography task force,0.4110392192057851,0.0997418686754384,50
 trec_fair_2022_llm,bm25,popularity,1371,Japan/Biography task force,0.4113150831144048,0.0993614996298181,50
-trec_fair_2021_llm,bm25,geo_location,23,Football,0.4351869330086515,0.035062104417029,48
-trec_fair_2021_llm,tfidf,geo_location,23,Football,0.4353929063001432,0.0349715084727564,48

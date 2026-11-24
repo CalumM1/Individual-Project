@@ -1,4 +1,5 @@
 import argparse
+import re
 
 import pandas as pd
 
@@ -8,13 +9,15 @@ from first_pass_retrieval import DATASETS, LLM_DATASETS, RUNS_DIR, ROOT, WMODELS
 QEP_TOPIC_RESULTS_DIR = ROOT / "results" / "qep_topics"
 
 
-def main(model, results_file=None, folders=None):
+def year_of(folder):
+    return re.search(r"20\d\d", folder).group()
+
+
+def main(model, folders=None):
     predictor = load_predictor(model)
-    if results_file is None:
-        results_file = model.rsplit(":", 1)[-1]
 
     QEP_TOPIC_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    rows = []
+    pd.set_option("display.width", 200)
     for folder in folders or LLM_DATASETS:
         run_dir = RUNS_DIR / folder
         needed = ["topics.parquet", "groups.parquet", "term_stats.parquet",
@@ -28,6 +31,7 @@ def main(model, results_file=None, folders=None):
         groups = pd.read_parquet(run_dir / "groups.parquet")
         categories = DATASETS[LLM_DATASETS[folder]["base"]]["categories"]
 
+        rows = []
         for category in categories:
             # predict once for every query in the folder, then score each topic's queries
             preds = predictor(run_dir, category)
@@ -43,10 +47,12 @@ def main(model, results_file=None, folders=None):
                     rows.append({"dataset": folder, "system": system, "category": category,
                                  "topic_id": topic_id, "topic_title": title, **res})
 
-    results = pd.DataFrame(rows)
-    results.to_csv(QEP_TOPIC_RESULTS_DIR / f"{results_file}.csv", index=False)
-    pd.set_option("display.width", 200)
-    print(results.round(4).to_string(index=False))
+        # one results file per year
+        results = pd.DataFrame(rows)
+        out = QEP_TOPIC_RESULTS_DIR / f"main_results_{year_of(folder)}.csv"
+        results.to_csv(out, index=False)
+        print(results.round(4).to_string(index=False))
+        print(f"wrote {out}\n")
 
 
 if __name__ == "__main__":
@@ -55,8 +61,7 @@ if __name__ == "__main__":
         epilog="Example: python evaluate_qep_topics.py predictors.qep.gep:gep_predictor",
     )
     parser.add_argument("model", help="Prediction model in module:function format")
-    parser.add_argument("--results-file", help="Output CSV name (without .csv); defaults to the model name")
     parser.add_argument("--folders", nargs="*", choices=list(LLM_DATASETS),
                         help="LLM run folders to evaluate (default: all)")
     args = parser.parse_args()
-    main(args.model, args.results_file, args.folders)
+    main(args.model, args.folders)

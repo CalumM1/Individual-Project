@@ -1,0 +1,172 @@
+dataset,system,category,topic_id,topic_title,jsd,jsd_std,n
+trec_fair_2021_llm,bm25,geo_location,1,Agriculture,0.34160841069497644,0.04755543564771163,50
+trec_fair_2021_llm,bm25,geo_location,2,Architecture,0.36010739213205717,0.0468213550548889,50
+trec_fair_2021_llm,bm25,geo_location,3,Athletics,0.38874119241041977,0.0634446955206353,50
+trec_fair_2021_llm,bm25,geo_location,4,Aviation,0.34802192200209775,0.047985958004445016,50
+trec_fair_2021_llm,bm25,geo_location,5,Baseball,0.3951999138534893,0.05478780969301717,50
+trec_fair_2021_llm,bm25,geo_location,6,Biography/science and academia work group,0.37893355190614386,0.05687552245688766,50
+trec_fair_2021_llm,bm25,geo_location,7,Biography/sports and games work group,0.3993110726148703,0.0577998665587932,50
+trec_fair_2021_llm,bm25,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.39952202376953855,0.0744967874818657,50
+trec_fair_2021_llm,bm25,geo_location,9,Boxing,0.3834435519181995,0.04983360265736567,50
+trec_fair_2021_llm,bm25,geo_location,10,Buddhism,0.29339593650490814,0.04213493729877762,50
+trec_fair_2021_llm,bm25,geo_location,11,Business,0.3489201432208075,0.04852461380309901,48
+trec_fair_2021_llm,bm25,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.3091712110900368,0.06101168163519109,47
+trec_fair_2021_llm,bm25,geo_location,13,Chess,0.31144090634414495,0.05347163486271943,50
+trec_fair_2021_llm,bm25,geo_location,14,Children's literature,0.37125672371895774,0.05444509833989727,50
+trec_fair_2021_llm,bm25,geo_location,15,Composers,0.37265291678186235,0.06477574796106332,50
+trec_fair_2021_llm,bm25,geo_location,16,Computer science,0.29745013595205233,0.06530214494597099,50
+trec_fair_2021_llm,bm25,geo_location,17,Cricket,0.39938587937041903,0.06180987188740376,50
+trec_fair_2021_llm,bm25,geo_location,18,Cycling,0.3508033521899283,0.08183763616607014,50
+trec_fair_2021_llm,bm25,geo_location,19,Dance/WikiProject Ballet,0.31600339941576905,0.05555557246696296,50
+trec_fair_2021_llm,bm25,geo_location,20,Disability,0.3099434879773834,0.05416969222308709,49
+trec_fair_2021_llm,bm25,geo_location,21,Engineering,0.3586772505205527,0.056651041050037584,48
+trec_fair_2021_llm,bm25,geo_location,22,Fencing,0.3418366071495329,0.07266442630112005,50
+trec_fair_2021_llm,bm25,geo_location,23,Football,0.4351869330086515,0.035062104417029054,48
+trec_fair_2021_llm,bm25,geo_location,24,Former countries,0.2993715050154309,0.05579965563753638,50
+trec_fair_2021_llm,bm25,geo_location,25,Gymnastics,0.36592530107233123,0.060713883102124715,49
+trec_fair_2021_llm,bm25,geo_location,26,Human rights,0.3289209379320032,0.04487187435214929,50
+trec_fair_2021_llm,bm25,geo_location,27,Indigenous peoples of the Americas,0.2521847153304806,0.04475272448839761,50
+trec_fair_2021_llm,bm25,geo_location,28,Japan/Biography task force,0.38414826078191255,0.05558741681285035,50
+trec_fair_2021_llm,bm25,geo_location,29,Jewish history,0.3643156209344429,0.06835421520921428,50
+trec_fair_2021_llm,bm25,geo_location,30,Journalism,0.353442355929213,0.05245360811920914,50
+trec_fair_2021_llm,bm25,geo_location,31,Law,0.33594021531621215,0.04710891095124657,50
+trec_fair_2021_llm,bm25,geo_location,32,LGBT studies/LGBT Person task force,0.3084997710549121,0.05307526604442295,50
+trec_fair_2021_llm,bm25,geo_location,33,Libraries,0.32807363454974026,0.07010329654420912,50
+trec_fair_2021_llm,bm25,geo_location,34,Linguistics,0.3111161884837678,0.06987548028283555,49
+trec_fair_2021_llm,bm25,geo_location,35,Literature,0.36057944044856294,0.046385451045869386,50
+trec_fair_2021_llm,bm25,geo_location,36,Medicine,0.3160413238393209,0.06388090167639682,50
+trec_fair_2021_llm,bm25,geo_location,37,Middle Ages,0.3284477546708589,0.059182756473637854,50
+trec_fair_2021_llm,bm25,geo_location,38,Mixed martial arts,0.35672238136786555,0.05007334024371091,50
+trec_fair_2021_llm,bm25,geo_location,39,Musical Theatre,0.4084700756892504,0.0635466577544362,50
+trec_fair_2021_llm,bm25,geo_location,40,Netherlands,0.35084091490143005,0.04378914615661368,50
+trec_fair_2021_llm,bm25,geo_location,41,Olympics,0.3987708477846184,0.05936283449280913,50
+trec_fair_2021_llm,bm25,geo_location,42,Organized Labour,0.3497114952313052,0.05426282974538191,49
+trec_fair_2021_llm,bm25,geo_location,43,Philately,0.26607457616082775,0.04940376930265243,50
+trec_fair_2021_llm,bm25,geo_location,44,Photography,0.3581985189808895,0.05832981191631047,50
+trec_fair_2021_llm,bm25,geo_location,45,Poetry,0.3407633686733179,0.06019687174535802,50
+trec_fair_2021_llm,bm25,geo_location,46,Politics,0.3257419441265925,0.06487723149438122,50
+trec_fair_2021_llm,bm25,geo_location,47,Punk music,0.3242276223332948,0.05879664722608461,50
+trec_fair_2021_llm,bm25,geo_location,48,Referees,0.37038880173069033,0.059893828137085076,50
+trec_fair_2021_llm,bm25,geo_location,49,Rowing,0.34608330344342825,0.053317806808292977,50
+trec_fair_2021_llm,bm25,geo_location,50,Running,0.3637843547145143,0.06411152791755471,49
+trec_fair_2021_llm,bm25,geo_location,51,Skiing and Snowboarding,0.33052912119170635,0.07493937032950222,48
+trec_fair_2021_llm,bm25,geo_location,52,Southeast Asia,0.3380286416812696,0.046931433992554464,50
+trec_fair_2021_llm,bm25,geo_location,53,Swimming,0.36333353417279335,0.05851232901253824,49
+trec_fair_2021_llm,bm25,geo_location,54,Television,0.3646588247487007,0.05436452394567229,50
+trec_fair_2021_llm,bm25,geo_location,55,Volcanoes,0.2965071290822434,0.06628656866753152,50
+trec_fair_2021_llm,bm25,geo_location,56,Women,0.3925159906042344,0.04304069882339257,49
+trec_fair_2021_llm,bm25,geo_location,57,Nigeria,0.35666261966575424,0.06195731930266957,50
+trec_fair_2021_llm,dirichlet,geo_location,1,Agriculture,0.2646912913614134,0.0469873897636538,50
+trec_fair_2021_llm,dirichlet,geo_location,2,Architecture,0.2735842387294352,0.0488394465612742,50
+trec_fair_2021_llm,dirichlet,geo_location,3,Athletics,0.2782915482558906,0.05866247091891985,50
+trec_fair_2021_llm,dirichlet,geo_location,4,Aviation,0.2533153277984283,0.05308881857443361,50
+trec_fair_2021_llm,dirichlet,geo_location,5,Baseball,0.2581926842514749,0.05954820149393402,50
+trec_fair_2021_llm,dirichlet,geo_location,6,Biography/science and academia work group,0.2710395304151962,0.047476593078038386,50
+trec_fair_2021_llm,dirichlet,geo_location,7,Biography/sports and games work group,0.28606567814534484,0.05168825638233571,50
+trec_fair_2021_llm,dirichlet,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.28740698806452913,0.059699101268116644,50
+trec_fair_2021_llm,dirichlet,geo_location,9,Boxing,0.26615935597838275,0.044963808991350905,50
+trec_fair_2021_llm,dirichlet,geo_location,10,Buddhism,0.17269329928086397,0.0388017732401103,50
+trec_fair_2021_llm,dirichlet,geo_location,11,Business,0.26640169084315307,0.04439163526230472,48
+trec_fair_2021_llm,dirichlet,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.2438912242785002,0.042605205521943565,47
+trec_fair_2021_llm,dirichlet,geo_location,13,Chess,0.20717326783367532,0.04584479967835892,50
+trec_fair_2021_llm,dirichlet,geo_location,14,Children's literature,0.25858010251161695,0.0417258449052279,50
+trec_fair_2021_llm,dirichlet,geo_location,15,Composers,0.2544132119041957,0.06088426360297821,50
+trec_fair_2021_llm,dirichlet,geo_location,16,Computer science,0.24570626193778064,0.05347382364085924,50
+trec_fair_2021_llm,dirichlet,geo_location,17,Cricket,0.2777742379223042,0.05956976828093161,50
+trec_fair_2021_llm,dirichlet,geo_location,18,Cycling,0.2593206081977255,0.06847852944283181,50
+trec_fair_2021_llm,dirichlet,geo_location,19,Dance/WikiProject Ballet,0.22670954336584778,0.04074725141987864,50
+trec_fair_2021_llm,dirichlet,geo_location,20,Disability,0.229354730500416,0.04822205363865718,49
+trec_fair_2021_llm,dirichlet,geo_location,21,Engineering,0.24712887411528098,0.04167286578005475,48
+trec_fair_2021_llm,dirichlet,geo_location,22,Fencing,0.26112727414551345,0.060438866441897963,50
+trec_fair_2021_llm,dirichlet,geo_location,23,Football,0.33541919688142663,0.051760608455270356,48
+trec_fair_2021_llm,dirichlet,geo_location,24,Former countries,0.2211130707584144,0.04741042278984861,50
+trec_fair_2021_llm,dirichlet,geo_location,25,Gymnastics,0.25916884753973485,0.04834325229292944,49
+trec_fair_2021_llm,dirichlet,geo_location,26,Human rights,0.2532755588042475,0.033860369716632636,50
+trec_fair_2021_llm,dirichlet,geo_location,27,Indigenous peoples of the Americas,0.19299994024861408,0.039624323998269075,50
+trec_fair_2021_llm,dirichlet,geo_location,28,Japan/Biography task force,0.25610804968369083,0.03415828481401575,50
+trec_fair_2021_llm,dirichlet,geo_location,29,Jewish history,0.2135003365221957,0.06342558158605179,50
+trec_fair_2021_llm,dirichlet,geo_location,30,Journalism,0.2450346290363188,0.047747324565665064,50
+trec_fair_2021_llm,dirichlet,geo_location,31,Law,0.2387124092451754,0.03721464687705981,50
+trec_fair_2021_llm,dirichlet,geo_location,32,LGBT studies/LGBT Person task force,0.23974954250123545,0.039902377677730236,50
+trec_fair_2021_llm,dirichlet,geo_location,33,Libraries,0.2505445868091899,0.052277794485086716,50
+trec_fair_2021_llm,dirichlet,geo_location,34,Linguistics,0.23477213660802793,0.060290217597792364,49
+trec_fair_2021_llm,dirichlet,geo_location,35,Literature,0.2586544060380058,0.036592225594885855,50
+trec_fair_2021_llm,dirichlet,geo_location,36,Medicine,0.22645857023565738,0.04302246461427466,50
+trec_fair_2021_llm,dirichlet,geo_location,37,Middle Ages,0.2435801071979775,0.05808122385613871,50
+trec_fair_2021_llm,dirichlet,geo_location,38,Mixed martial arts,0.276077473307047,0.053647410032738554,50
+trec_fair_2021_llm,dirichlet,geo_location,39,Musical Theatre,0.29325912482615024,0.04681806822742329,50
+trec_fair_2021_llm,dirichlet,geo_location,40,Netherlands,0.25511438087827143,0.05037661031441099,50
+trec_fair_2021_llm,dirichlet,geo_location,41,Olympics,0.2626653859462253,0.06337692357193635,50
+trec_fair_2021_llm,dirichlet,geo_location,42,Organized Labour,0.2436891982827542,0.03569366666189639,49
+trec_fair_2021_llm,dirichlet,geo_location,43,Philately,0.17949428376927834,0.040380828501116274,50
+trec_fair_2021_llm,dirichlet,geo_location,44,Photography,0.27259708800785426,0.05873650506921594,50
+trec_fair_2021_llm,dirichlet,geo_location,45,Poetry,0.23805799380471096,0.04971929379249567,50
+trec_fair_2021_llm,dirichlet,geo_location,46,Politics,0.2428356495591988,0.04994118123995649,50
+trec_fair_2021_llm,dirichlet,geo_location,47,Punk music,0.21125911709927198,0.04826546528925176,50
+trec_fair_2021_llm,dirichlet,geo_location,48,Referees,0.2712004279540429,0.06257893425570325,50
+trec_fair_2021_llm,dirichlet,geo_location,49,Rowing,0.26175138477395665,0.051388621627807864,50
+trec_fair_2021_llm,dirichlet,geo_location,50,Running,0.25689025379804353,0.04608306327722167,49
+trec_fair_2021_llm,dirichlet,geo_location,51,Skiing and Snowboarding,0.23456733848019787,0.06011397562426092,48
+trec_fair_2021_llm,dirichlet,geo_location,52,Southeast Asia,0.2221653305892125,0.04422787613706866,50
+trec_fair_2021_llm,dirichlet,geo_location,53,Swimming,0.28033225661756206,0.05923731048028769,49
+trec_fair_2021_llm,dirichlet,geo_location,54,Television,0.2467913971334374,0.048775515927740494,50
+trec_fair_2021_llm,dirichlet,geo_location,55,Volcanoes,0.19848576421260208,0.05809044400859263,50
+trec_fair_2021_llm,dirichlet,geo_location,56,Women,0.28398429664362235,0.04796323736973532,49
+trec_fair_2021_llm,dirichlet,geo_location,57,Nigeria,0.2724843081909672,0.05741195899702701,50
+trec_fair_2021_llm,tfidf,geo_location,1,Agriculture,0.3418276336516915,0.04775646700615278,50
+trec_fair_2021_llm,tfidf,geo_location,2,Architecture,0.35998430611640553,0.04681365299120369,50
+trec_fair_2021_llm,tfidf,geo_location,3,Athletics,0.38854319776608265,0.06359856985484567,50
+trec_fair_2021_llm,tfidf,geo_location,4,Aviation,0.3480775460809466,0.04818442612322489,50
+trec_fair_2021_llm,tfidf,geo_location,5,Baseball,0.3937949198576974,0.05472059936605693,50
+trec_fair_2021_llm,tfidf,geo_location,6,Biography/science and academia work group,0.3793709282500933,0.05678974289519043,50
+trec_fair_2021_llm,tfidf,geo_location,7,Biography/sports and games work group,0.40046370648309043,0.057750515000021325,50
+trec_fair_2021_llm,tfidf,geo_location,8,Biography/WikiProject Actors and Filmmakers,0.39960120567828566,0.0741685954618504,50
+trec_fair_2021_llm,tfidf,geo_location,9,Boxing,0.38360584765475225,0.049498497955972665,50
+trec_fair_2021_llm,tfidf,geo_location,10,Buddhism,0.29332974683015967,0.04266373042361375,50
+trec_fair_2021_llm,tfidf,geo_location,11,Business,0.3496373961478459,0.04866702609167908,48
+trec_fair_2021_llm,tfidf,geo_location,12,Canada/WikiProject Political parties and politicians in Canada,0.3089211984210265,0.060525412413941965,47
+trec_fair_2021_llm,tfidf,geo_location,13,Chess,0.3109917922099093,0.052977050944463956,50
+trec_fair_2021_llm,tfidf,geo_location,14,Children's literature,0.372568099886301,0.052771917735035465,50
+trec_fair_2021_llm,tfidf,geo_location,15,Composers,0.372145586796476,0.06520402600419899,50
+trec_fair_2021_llm,tfidf,geo_location,16,Computer science,0.29739439753569763,0.06533250411605428,50
+trec_fair_2021_llm,tfidf,geo_location,17,Cricket,0.39907254145953436,0.061724515592342065,50
+trec_fair_2021_llm,tfidf,geo_location,18,Cycling,0.35040685991773807,0.0819153027328054,50
+trec_fair_2021_llm,tfidf,geo_location,19,Dance/WikiProject Ballet,0.3165499315334012,0.05545150988487345,50
+trec_fair_2021_llm,tfidf,geo_location,20,Disability,0.3100531687395012,0.05414861613769085,49
+trec_fair_2021_llm,tfidf,geo_location,21,Engineering,0.359495773354094,0.056543036524649225,48
+trec_fair_2021_llm,tfidf,geo_location,22,Fencing,0.3426493147685432,0.07281307749151417,50
+trec_fair_2021_llm,tfidf,geo_location,23,Football,0.4353929063001432,0.03497150847275641,48
+trec_fair_2021_llm,tfidf,geo_location,24,Former countries,0.2998592075890172,0.05564436851644688,50
+trec_fair_2021_llm,tfidf,geo_location,25,Gymnastics,0.36807558202785295,0.0604226522774841,49
+trec_fair_2021_llm,tfidf,geo_location,26,Human rights,0.32924057951851393,0.04475469753927587,50
+trec_fair_2021_llm,tfidf,geo_location,27,Indigenous peoples of the Americas,0.2526690883920011,0.044941578619429906,50
+trec_fair_2021_llm,tfidf,geo_location,28,Japan/Biography task force,0.3839599355433543,0.055904789231930416,50
+trec_fair_2021_llm,tfidf,geo_location,29,Jewish history,0.3645520596450187,0.06835125499796753,50
+trec_fair_2021_llm,tfidf,geo_location,30,Journalism,0.35422538018118715,0.05087545855998829,50
+trec_fair_2021_llm,tfidf,geo_location,31,Law,0.3361531169686332,0.04718103102094266,50
+trec_fair_2021_llm,tfidf,geo_location,32,LGBT studies/LGBT Person task force,0.30839809698436693,0.051875904008371304,50
+trec_fair_2021_llm,tfidf,geo_location,33,Libraries,0.32750383840046643,0.06982951186355862,50
+trec_fair_2021_llm,tfidf,geo_location,34,Linguistics,0.3114194804319616,0.07013411898552081,49
+trec_fair_2021_llm,tfidf,geo_location,35,Literature,0.3606999097003699,0.04628479430630103,50
+trec_fair_2021_llm,tfidf,geo_location,36,Medicine,0.31592268326974904,0.06380200359342195,50
+trec_fair_2021_llm,tfidf,geo_location,37,Middle Ages,0.32928136943262565,0.059554294059913956,50
+trec_fair_2021_llm,tfidf,geo_location,38,Mixed martial arts,0.35667317083262257,0.05075834619848158,50
+trec_fair_2021_llm,tfidf,geo_location,39,Musical Theatre,0.4084798482257348,0.06379846889348594,50
+trec_fair_2021_llm,tfidf,geo_location,40,Netherlands,0.35080081063039964,0.04338506962959495,50
+trec_fair_2021_llm,tfidf,geo_location,41,Olympics,0.3976180130987968,0.05961109330273737,50
+trec_fair_2021_llm,tfidf,geo_location,42,Organized Labour,0.3495961067053874,0.053755269766558436,49
+trec_fair_2021_llm,tfidf,geo_location,43,Philately,0.26648068945316766,0.04974278970572693,50
+trec_fair_2021_llm,tfidf,geo_location,44,Photography,0.35869279396777265,0.05849248664610862,50
+trec_fair_2021_llm,tfidf,geo_location,45,Poetry,0.340562040927071,0.05939085368746759,50
+trec_fair_2021_llm,tfidf,geo_location,46,Politics,0.32518877666511414,0.06465208970794047,50
+trec_fair_2021_llm,tfidf,geo_location,47,Punk music,0.3254802204461866,0.05857796334555685,50
+trec_fair_2021_llm,tfidf,geo_location,48,Referees,0.37020791622640226,0.059879991658831934,50
+trec_fair_2021_llm,tfidf,geo_location,49,Rowing,0.346179235449926,0.05333731299338668,50
+trec_fair_2021_llm,tfidf,geo_location,50,Running,0.36335321339094073,0.06370898434316348,49
+trec_fair_2021_llm,tfidf,geo_location,51,Skiing and Snowboarding,0.33114402366103507,0.07486882333215361,48
+trec_fair_2021_llm,tfidf,geo_location,52,Southeast Asia,0.33750590324701113,0.046530313011696536,50
+trec_fair_2021_llm,tfidf,geo_location,53,Swimming,0.36426189130354053,0.058236688882830956,49
+trec_fair_2021_llm,tfidf,geo_location,54,Television,0.3638241485434214,0.05345105054698837,50
+trec_fair_2021_llm,tfidf,geo_location,55,Volcanoes,0.2958703712886717,0.06653247020059326,50
+trec_fair_2021_llm,tfidf,geo_location,56,Women,0.3931225945781734,0.04431584899136744,49
+trec_fair_2021_llm,tfidf,geo_location,57,Nigeria,0.35754365551989153,0.061488947414749404,50
